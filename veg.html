@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Cards - Page 2</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="home.css">
+  <link href="recipe.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logocontent">
+        <a href="#"class="logo"><img src="logo1.jpg" alt="logo" ></a>
+        <h1 class="logoname">Bachelors Kitchen</h1>
+    </div>
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="recipe.html">Top Dishes</a>
+        <div class="dropdown">
+          <a href="">Category</a> 
+          <div class="dropdown-content">
+              <a href="veg.html">Veg</a>
+              <a href="nonveg.html">Non veg</a>
+              <a href="dessart.html">Desserts</a>
+              <!-- Add more categories as needed -->
+          </div>
+          </div>
+          <div class="dropdown">   
+            <a href="#quick">Quick and Easy</a>
+            <div class="dropdown-content">
+                <a href="breakfast.html">Breakfast</a>
+                <a href="Lunch.html">Lunch</a>
+                <a href="dinner.html">Dinner</a>
+                <!-- Add more categories as needed -->
+            </div>
+            </div>
+        <a href="brp.html">About</a>
+        
+    </nav>
+
+    
+    
+</header>
+<div class="container">
+  <!-- Coconut Rice -->
+<div class="recipe-card">
+  <img src="cocunut rice.jfif" alt="Coconut Rice">
+  <h2 class="recipe-title">Coconut Rice</h2>
+  <p class="recipe-description">A fragrant South Indian rice dish made with freshly grated coconut, spices, and cooked rice.</p>
+  <p class="recipe-info">Preparation Time: 10 minutes | Cook Time: 20 minutes | Total Time: 30 minutes</p>
+  <p class="recipe-info">Serves: 4</p>
+  <button class="recipe-button" onclick="showRecipe('coconut_rice_recipe')">Get Recipe</button>
+</div>
+
+<div id="coconut_rice_recipe" class="recipe-details" style="display: none;">
+  <h3>Ingredients:</h3>
+  <ul class="ingredient-list">
+    <li>2 cups cooked rice</li>
+    <li>1 cup freshly grated coconut</li>
+    <li>2 tablespoons oil</li>
+    <li>1 teaspoon mustard seeds</li>
+    <li>1 teaspoon urad dal (black gram)</li>
+    <li>1 teaspoon chana dal (split chickpeas)</li>
+    <li>2-3 dry red chilies</li>
+    <li>A pinch of asafoetida (hing)</li>
+    <li>A few curry leaves</li>
+    <li>2 tablespoons roasted peanuts (optional)</li>
+    <li>Salt to taste</li>
+  </ul>
+  <h3>Instructions:</h3>
+  <ol class="instruction-list">
+    <li>Heat oil in a pan. Add mustard seeds and let them splutter.</li>
+    <li>Add urad dal, chana dal, dry red chilies, asafoetida, and curry leaves. Sauté until dals turn golden brown.</li>
+    <li>Add freshly grated coconut and roasted peanuts (if using). Sauté for 2-3 minutes.</li>
+    <li>Add cooked rice and salt. Mix well until all the ingredients are evenly combined.</li>
+    <li>Cover and cook on low heat for another 5-7 minutes.</li>
+    <li>Remove from heat and serve hot as a side dish or with yogurt.</li>
+  </ol>
+</div>
+
+<!-- Mushroom Biryani -->
+<div class="recipe-card">
+  <img src="mushroom briyani.jfif" alt="Mushroom Biryani">
+  <h2 class="recipe-title">Mushroom Biryani</h2>
+  <p class="recipe-description">A flavorful and aromatic rice dish made with mushrooms, basmati rice, and a blend of spices.</p>
+  <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 30 minutes | Total Time: 45 minutes</p>
+  <p class="recipe-info">Serves: 4</p>
+  <button class="recipe-button" onclick="showRecipe('mushroom_biryani_recipe')">Get Recipe</button>
+</div>
+
+<div id="mushroom_biryani_recipe" class="recipe-details" style="display: none;">
+  <h3>Ingredients:</h3>
+  <ul class="ingredient-list">
+    <li>2 cups basmati rice, soaked for 30 minutes</li>
+    <li>200 grams mushrooms, cleaned and sliced</li>
+    <li>2 onions, thinly sliced</li>
+    <li>2 tomatoes, chopped</li>
+    <li>1/2 cup yogurt</li>
+    <li>1 tablespoon ginger-garlic paste</li>
+    <li>1 teaspoon cumin seeds</li>
+    <li>1 teaspoon garam masala</li>
+    <li>1/2 teaspoon turmeric powder</li>
+    <li>1 teaspoon red chili powder</li>
+    <li>1 bay leaf</li>
+    <li>4-5 whole cloves</li>
+    <li>4-5 whole black peppercorns</li>
+    <li>2-3 cardamom pods</li>
+    <li>A pinch of saffron strands (optional)</li>
+    <li>2 tablespoons ghee or oil</li>
+    <li>Salt to taste</li>
+    <li>Coriander leaves for garnish</li>
+  </ul>
+  <h3>Instructions:</h3>
+  <ol class="instruction-list">
+    <li>Heat ghee or oil in a pan. Add cumin seeds, bay leaf, cloves, peppercorns, and cardamom pods. Sauté for a minute.</li>
+    <li>Add sliced onions and sauté until golden brown.</li>
+    <li>Add ginger-garlic paste and sauté until the raw smell disappears.</li>
+    <li>Add chopped tomatoes and cook until they turn soft.</li>
+    <li>Add sliced mushrooms and cook for 5-7 minutes until they release water.</li>
+    <li>Meanwhile, boil water in a separate pot. Add soaked basmati rice and cook until 70-80% done. Drain the excess water.</li>
+    <li>Add yogurt, garam masala, turmeric powder, red chili powder, and salt to the mushroom mixture. Mix well.</li>
+    <li>Add the partially cooked rice to the mushroom mixture. Cover and cook on low heat for 10-15 minutes until the rice is fully cooked and the flavors are well absorbed.</li>
+    <li>If using saffron, dissolve it in a tablespoon of warm milk and drizzle over the biryani. Garnish with coriander leaves before serving.</li>
+  </ol>
+</div>
+
+<div class="recipe-card">
+    <img src="rasam.jpg" alt="Rasam">
+    <h2 class="recipe-title">Rasam</h2>
+    <p class="recipe-description">A tangy and spicy South Indian soup made with tamarind, tomatoes, lentils, and a blend of aromatic spices.</p>
+    <p class="recipe-info">Prep Time: 10 minutes | Cook Time: 20 minutes | Total Time: 30 minutes</p>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('recipe-details15')">Get Recipe</button></div>
+  
+  <div id="recipe-details15" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>1/2 cup toor dal (split pigeon peas)</li>
+      <li>2 tomatoes, chopped</li>
+      <li>1 lemon-sized ball of tamarind, soaked in water</li>
+      <li>1 teaspoon rasam powder</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>1/2 teaspoon mustard seeds</li>
+      <li>1/2 teaspoon cumin seeds</li>
+      <li>1/2 teaspoon fenugreek seeds</li>
+      <li>2-3 dried red chilies</li>
+      <li>A pinch of asafoetida (hing)</li>
+      <li>A few curry leaves</li>
+      <li>2 tablespoons chopped coriander leaves</li>
+      <li>2 tablespoons ghee or oil</li>
+      <li>Salt to taste</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Pressure cook toor dal until soft and mushy. Mash the dal and set aside.</li>
+      <li>Extract tamarind juice from soaked tamarind and set aside.</li>
+      <li>In a pot, heat ghee or oil. Add mustard seeds, cumin seeds, fenugreek seeds, dried red chilies, asafoetida, and curry leaves.</li>
+      <li>Add chopped tomatoes and sauté until they turn mushy.</li>
+      <li>Add tamarind extract, turmeric powder, and salt. Bring it to a boil.</li>
+      <li>Add rasam powder and mashed dal. Mix well and let it simmer for 5-7 minutes.</li>
+      <li>Turn off the heat and garnish with chopped coriander leaves.</li>
+      <li>Serve hot as a soup or with steamed rice.</li>
+    </ol>
+  </div>
+  <div class="recipe-card">
+    <img src="kootu.jfif" alt="Koottu Curry">
+    <h2 class="recipe-title">Koottu Curry</h2>
+    <p class="recipe-description">A nutritious and delicious Kerala dish made with a combination of vegetables, lentils, coconut, and spices.</p>
+    <p class="recipe-info">Prep Time: 15 minutes | Cook Time: 25 minutes | Total Time: 40 minutes</p><br>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('recipe-details20')">Get Recipe</button>
+  </div>
+  
+  <div id="recipe-details20" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>1 cup mixed vegetables (carrot, beans, potato, pumpkin, etc.), chopped</li>
+      <li>1/2 cup yellow pumpkin, chopped</li>
+      <li>1/4 cup chana dal (split chickpeas)</li>
+      <li>1/4 cup grated coconut</li>
+      <li>1 teaspoon turmeric powder</li>
+      <li>1 teaspoon red chili powder</li>
+      <li>1/2 teaspoon mustard seeds</li>
+      <li>1/2 teaspoon cumin seeds</li>
+      <li>2-3 dry red chilies</li>
+      <li>A few curry leaves</li>
+      <li>2 tablespoons coconut oil</li>
+      <li>Salt to taste</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Cook mixed vegetables and chana dal together until they are soft but not mushy.</li>
+      <li>Grind grated coconut, turmeric powder, and red chili powder into a fine paste.</li>
+      <li>Add the coconut paste to the cooked vegetables and dal. Mix well and simmer for a few minutes.</li>
+      <li>Heat coconut oil in a small pan. Add mustard seeds, cumin seeds, dry red chilies, and curry leaves.</li>
+      <li>Once the mustard seeds start spluttering, pour this tempering over the koottu curry.</li>
+      <li>Stir well and cook for another couple of minutes.</li>
+      <li>Remove from heat and serve hot with steamed rice.</li>
+    </ol>
+  </div>
+  <div class="recipe-card">
+    <img src="vazhakaii.jfif" alt="Vazhakkai Podimas">
+    <h2 class="recipe-title">Vazhakkai Podimas</h2>
+    <p class="recipe-description">A simple and flavorful dish made with boiled and mashed raw bananas (vazhakkai) tempered with mustard seeds, curry leaves, and spices.</p>
+    <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 20 minutes | Total Time: 35 minutes</p>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('vazhakkai_podimas_recipe')">Get Recipe</button>
+  </div>
+
+  <div id="vazhakkai_podimas_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>2 raw bananas (vazhakkai), boiled and mashed</li>
+      <li>1 tablespoon oil</li>
+      <li>1 teaspoon mustard seeds</li>
+      <li>A few curry leaves</li>
+      <li>2 green chilies, chopped</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>Salt to taste</li>
+      <li>2 tablespoons grated coconut (optional)</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Heat oil in a pan. Add mustard seeds and let them splutter.</li>
+      <li>Add curry leaves and chopped green chilies. Sauté for a minute.</li>
+      <li>Add mashed raw bananas, turmeric powder, and salt. Mix well.</li>
+      <li>Cook for 5-7 minutes on medium heat, stirring occasionally.</li>
+      <li>Optional: Garnish with grated coconut before serving.</li>
+    </ol>
+  </div>
+
+  <!-- Curd Rice -->
+  <div class="recipe-card">
+    <img src="curd rice.jfif" alt="Curd Rice">
+    <h2 class="recipe-title">Curd Rice</h2>
+    <p class="recipe-description">A comforting and cooling dish made with cooked rice mixed with yogurt and seasoned with mustard seeds, curry leaves, and green chilies.</p>
+    <p class="recipe-info">Preparation Time: 10 minutes | Cook Time: 10 minutes | Total Time: 20 minutes</p>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('curd_rice_recipe')">Get Recipe</button>
+  </div>
+
+  <div id="curd_rice_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>1 cup cooked rice</li>
+      <li>1 cup plain yogurt (curd)</li>
+      <li>2 tablespoons milk</li>
+      <li>1 tablespoon oil</li>
+      <li>1 teaspoon mustard seeds</li>
+      <li>A few curry leaves</li>
+      <li>2 green chilies, chopped</li>
+      <li>A pinch of asafoetida (hing)</li>
+      <li>Salt to taste</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Mix cooked rice and yogurt in a bowl. Add milk to adjust consistency if needed.</li>
+      <li>Heat oil in a small pan. Add mustard seeds and let them splutter.</li>
+      <li>Add curry leaves, chopped green chilies, and asafoetida. Sauté for a minute.</li>
+      <li>Pour the tempered mixture over the curd rice and mix well.</li>
+      <li>Adjust salt according to taste. Serve chilled or at room temperature.</li>
+    </ol>
+  </div>
+
+  <!-- Potato Fry -->
+  <div class="recipe-card">
+    <img src="potato.jfif" alt="Potato Fry">
+    <h2 class="recipe-title">Potato Fry</h2>
+    <p class="recipe-description">A simple and delicious side dish made with sliced potatoes seasoned with turmeric, red chili powder, and other spices, then pan-fried until crispy.</p>
+    <p class="recipe-info">Preparation Time: 10 minutes | Cook Time: 20 minutes | Total Time: 30 minutes</p>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('potato_fry_recipe')">Get Recipe</button>
+  </div>
+
+  <div id="potato_fry_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>4 potatoes, peeled and sliced</li>
+      <li>2 tablespoons oil</li>
+      <li>1 teaspoon mustard seeds</li>
+      <li>1 teaspoon cumin seeds</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>1 teaspoon red chili powder</li>
+      <li>Salt to taste</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Heat oil in a pan. Add mustard seeds and let them splutter.</li>
+      <li>Add cumin seeds and sliced potatoes. Mix well.</li>
+      <li>Add turmeric powder, red chili powder, and salt. Stir to coat the potatoes evenly.</li>
+      <li>Cover and cook on medium heat for about 15-20 minutes or until the potatoes are cooked through and crispy, stirring occasionally.</li>
+      <li>Serve hot as a side dish with rice or roti.</li>
+    </ol>
+  </div>
+
+  <!-- Tomato Rice -->
+  <div class="recipe-card">
+    <img src="tomato rice.jfif" alt="Tomato Rice">
+    <h2 class="recipe-title">Tomato Rice</h2>
+    <p class="recipe-description">A flavorful South Indian rice dish made with cooked rice, tomatoes, and a blend of spices, often served as a quick lunch or dinner option.</p>
+    <p class="recipe-info">Preparation Time: 10 minutes | Cook Time: 20 minutes | Total Time: 30 minutes</p>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('tomato_rice_recipe')">Get Recipe</button>
+  </div>
+
+  <div id="tomato_rice_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>2 cups cooked rice</li>
+      <li>2 tomatoes, finely chopped</li>
+      <li>1 onion, finely chopped</li>
+      <li>2 green chilies, slit</li>
+      <li>1 teaspoon ginger-garlic paste</li>
+      <li>1/2 teaspoon mustard seeds</li>
+      <li>1/2 teaspoon cumin seeds</li>
+      <li>A pinch of asafoetida (hing)</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>1 teaspoon red chili powder</li>
+      <li>1 teaspoon coriander powder</li>
+      <li>Salt to taste</li>
+      <li>2 tablespoons oil</li>
+      <li>Few curry leaves</li>
+      <li>2 tablespoons chopped coriander leaves for garnish</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Heat oil in a pan. Add mustard seeds and let them splutter.</li>
+      <li>Add cumin seeds, asafoetida, and curry leaves. Sauté for a minute.</li>
+      <li>Add chopped onions and slit green chilies. Sauté until onions turn translucent.</li>
+      <li>Add ginger-garlic paste and sauté until raw smell disappears.</li>
+      <li>Add chopped tomatoes and cook until they turn soft and mushy.</li>
+      <li>Add turmeric powder, red chili powder, coriander powder, and salt. Mix well.</li>
+      <li>Add cooked rice and mix gently until well combined.</li>
+      <li>Cover and cook for a few minutes on low heat until the flavors are absorbed.</li>
+      <li>Garnish with chopped coriander leaves before serving.</li>
+    </ol>
+  </div>
+ 
+    <div class="recipe-card">
+      <img src="mor kolabu.jfif" alt="Mor Kolambu">
+      <h2 class="recipe-title">Mor Kolambu</h2>
+      <p class="recipe-description">A South Indian yogurt-based curry made with a blend of spices and vegetables, giving it a tangy and flavorful taste.</p>
+      <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 20 minutes | Total Time: 35 minutes</p><br>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('mor_kolambu_recipe')">Get Recipe</button>
+    </div>
+
+    <div id="mor_kolambu_recipe" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 cup plain yogurt (curd)</li>
+        <li>1 tablespoon chickpea flour (besan)</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1/2 teaspoon mustard seeds</li>
+        <li>1/2 teaspoon cumin seeds</li>
+        <li>2 dried red chilies</li>
+        <li>A few curry leaves</li>
+        <li>1/2 cup mixed vegetables (carrot, beans, potato), chopped</li>
+        <li>2 cups water</li>
+        <li>Salt to taste</li>
+        <li>Coriander leaves for garnish</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>In a bowl, whisk together yogurt, chickpea flour, turmeric powder, and salt. Set aside.</li>
+        <li>Heat oil in a pan. Add mustard seeds and let them splutter.</li>
+        <li>Add cumin seeds, dried red chilies, and curry leaves. Sauté for a minute.</li>
+        <li>Add mixed vegetables and sauté for 2-3 minutes.</li>
+        <li>Reduce the heat to low. Pour the yogurt mixture into the pan and mix well.</li>
+        <li>Add water and simmer for 10-12 minutes, stirring occasionally, until the vegetables are cooked and the gravy thickens.</li>
+        <li>Garnish with coriander leaves before serving.</li>
+      </ol>
+    </div>
+
+    <!-- Keerai Masiyal -->
+    <div class="recipe-card">
+      <img src="keerai.jfif" alt="Keerai Masiyal">
+      <h2 class="recipe-title">Keerai Masiyal</h2>
+      <p class="recipe-description">A nutritious South Indian dish made with mashed greens (spinach or amaranth leaves) tempered with garlic, cumin, and green chilies.</p>
+      <p class="recipe-info">Preparation Time: 10 minutes | Cook Time: 15 minutes | Total Time: 25 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('keerai_masiyal_recipe')">Get Recipe</button>
+    </div>
+
+    <div id="keerai_masiyal_recipe" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>4 cups spinach or amaranth leaves, washed and chopped</li>
+        <li>3 cloves garlic, minced</li>
+        <li>2 green chilies, chopped</li>
+        <li>1/2 teaspoon cumin seeds</li>
+        <li>1 tablespoon oil</li>
+        <li>Salt to taste</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Boil the chopped greens in water until they are soft and cooked.</li>
+        <li>Drain the excess water and mash the greens using a potato masher or the back of a spoon.</li>
+        <li>Heat oil in a pan. Add cumin seeds and let them splutter.</li>
+        <li>Add minced garlic and chopped green chilies. Sauté for a minute.</li>
+        <li>Add the mashed greens and salt. Mix well and cook for 2-3 minutes.</li>
+        <li>Remove from heat and serve hot with rice or roti.</li>
+      </ol>
+    </div>
+
+    <!-- Kathirikai Gosthu -->
+    <div class="recipe-card">
+      <img src="katharikai.jfif" alt="Kathirikai Gosthu">
+      <h2 class="recipe-title">Kathirikai Gosthu</h2>
+      <p class="recipe-description">A traditional South Indian gravy made with brinjal (eggplant), tamarind, and spices, typically served with rice or idli.</p>
+      <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 25 minutes | Total Time: 40 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('kathirikai_gosthu_recipe')">Get Recipe</button>
+    </div>
+
+    <div id="kathirikai_gosthu_recipe" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>4 small brinjals (eggplants), chopped</li>
+        <li>1 lemon-sized ball of tamarind, soaked in water</li>
+        <li>1 onion, finely chopped</li>
+        <li>2 tomatoes, finely chopped</li>
+        <li>1 teaspoon mustard seeds</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1 teaspoon sambar powder</li>
+        <li>A pinch of asafoetida (hing)</li>
+        <li>A few curry leaves</li>
+        <li>2 tablespoons oil</li>
+        <li>Salt to taste</li>
+        <li>Coriander leaves for garnish</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Extract tamarind juice from the soaked tamarind and set aside.</li>
+        <li>Heat oil in a pan. Add mustard seeds and let them splutter.</li>
+        <li>Add cumin seeds, asafoetida, and curry leaves. Sauté for a minute.</li>
+        <li>Add chopped onions and sauté until they turn translucent.</li>
+        <li>Add chopped tomatoes and cook until they turn soft.</li>
+        <li>Add chopped brinjals, turmeric powder, sambar powder, and salt. Mix well.</li>
+        <li>Add tamarind juice and water. Cover and cook until the brinjals are tender.</li>
+        <li>Garnish with coriander leaves before serving.</li>
+      </ol>
+    </div>
+
+    <!-- Milagu Kolambu -->
+    <div class="recipe-card">
+      <img src="milagu (1).jfif" alt="Milagu Kolambu">
+      <h2 class="recipe-title">Milagu Kolambu</h2>
+      <p class="recipe-description">A spicy and tangy South Indian gravy made with black pepper, tamarind, and spices, usually served with rice or idli.</p>
+      <p class="recipe-info">Preparation Time: 10 minutes | Cook Time: 20 minutes | Total Time: 30 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('milagu_kolambu_recipe')">Get Recipe</button>
+    </div>
+
+    <div id="milagu_kolambu_recipe" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 lemon-sized ball of tamarind, soaked in water</li>
+        <li>1 onion, finely chopped</li>
+        <li>2 tomatoes, finely chopped</li>
+        <li>2 teaspoons black peppercorns</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>1/2 teaspoon fenugreek seeds</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1 teaspoon sambar powder</li>
+        <li>1/2 teaspoon mustard seeds</li>
+        <li>A pinch of asafoetida (hing)</li>
+        <li>A few curry leaves</li>
+        <li>2 tablespoons oil</li>
+        <li>Salt to taste</li>
+        <li>Coriander leaves for garnish</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Extract tamarind juice from the soaked tamarind and set aside.</li>
+        <li>Dry roast black peppercorns, cumin seeds, and fenugreek seeds until fragrant. Grind into a fine powder.</li>
+        <li>Heat oil in a pan. Add mustard seeds and let them splutter.</li>
+        <li>Add chopped onions and sauté until they turn translucent.</li>
+        <li>Add chopped tomatoes and cook until they turn soft.</li>
+        <li>Add turmeric powder, sambar powder, ground pepper-cumin-fenugreek powder, and salt. Mix well.</li>
+        <li>Add tamarind juice and water. Cover and simmer until the gravy thickens.</li>
+        <li>Garnish with coriander leaves before serving.</li>
+      </ol>
+    </div>
+</div>
+<div class="container text-center">
+  <div class="pagination justify-content-center">
+    <div class="pagination-container"></div>
+    <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a href="recipe.html"class="active" >1</a>
+      <a href="recipe2.html" >2</a>
+      <a href="recipe3.html">3</a>
+      <a href="recipe4.html">4</a>
+      
+
+      <a href="#">&raquo;</a>
+    </div>
+  </div>
+</div>
+
+
+<script src="recipe.js"> </script>
+<script src="home.js"></script>
+
+</body>
+</html>

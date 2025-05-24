@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        form {
+            width: 30%;
+            margin: 0 auto; 
+           }
+         body{
+             background-color:pink;
+        }
+     label {
+            display: inline-block;
+            width: 40%;
+            text-align: right;
+            margin-right: 5%;
+           vertical-align: middle;
+
+        }
+
+
+        input[type=text], select, textarea {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('file:///C:/Users/LENOVA-PC/Downloads/user.png'); 
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            vertical-align: middle;
+        }
+      input[type=email] {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('file:///C:/Users/LENOVA-PC/Downloads/mail.png'); 
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            vertical-align: middle;
+        }
+          input[type=number] {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('file:///C:/Users/LENOVA-PC/Downloads/call.png'); 
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+           vertical-align: middle;
+        }
+        input[type=address] {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('file:///C:/Users/LENOVA-PC/Downloads/home.png'); 
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+           vertical-align: middle;
+        }
+        select {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('file:///C:/Users/LENOVA-PC/Downloads/menu.png'); 
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            vertical-align: middle;
+        }
+       input[type=code] {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('file:///C:/Users/LENOVA-PC/Downloads/home.png'); 
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            vertical-align: middle;
+        }
+           input[type=domain] {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('file:///C:/Users/LENOVA-PC/Downloads/world.png'); 
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            vertical-align: middle;
+        }
+      
+          input[type="radio"] {
+    cursor: pointer;
+    display: inline;
+    vertical-align: right;
+    margin-right: -170px;
+    margin-right: -170px;
+     }
+    
+
+         textarea {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('file:///C:/Users/LENOVA-PC/Downloads/pen.png'); 
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            vertical-align: middle;
+        }
+      
+            input[type=submit] {
+            background-color: #FFDB58;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px auto;
+            cursor: pointer;
+            display: block;
+           }
+      
+    </style>
+</head>
+<body>
+    <h3>Contact Us Today!</h3>
+    <form>
+          <label>First Name</label>
+          <input type="text" name="username" placeholder="yourname"><br><br>
+          <label>Last Name</label>
+          <input type="text" name="username" placeholder="yourname"><br><br>
+          <label>E-Mail-ID</label>
+          <input type="email" id="email" name="gmail" placeholder="Your email"><br><br>
+          <label>Phone no</label>
+          <input type="number" id="phone" name="phone" placeholder="Mobile no"><br><br>
+          <label>Address</label>
+          <input type="address" id="address" name="address" placeholder="Your address"><br><br>
+          <label>Your City</label>
+        <input type="address" id="city" name="city" placeholder="Your city"><br><br>
+         <label>Your State</label>
+            <select id="State" name="State" placeholder="select your state">
+            <option value="" disabled selected>Select your State...</option>
+            <option value="tn">Tamil Nadu</option>
+            <option value="kl">Kerala</option>
+            <option value="ka">Karnataka</option>
+        </select><br><br>
+       <label>PIN Code</label>
+        <input type="code" id="pin" name="pin" placeholder="PIN code"><br><br>
+         <label>Domain </label>
+        <input type="domain" id="domain" name="domain" placeholder="Your domain"><br><br>
+            <label>Do you have hosting?</label>
+        <input type="radio" id="hosting_yes" name="hosting" value="yes">
+        <label for="hosting_yes">YES</label>
+        <input type="radio" id="hosting_no" name="hosting" value="no">
+        <label for="hosting_no">NO</label><br><br>
+
+        <label> Description</label>
+         <textarea id="description" name="description" placeholder="Your message"></textarea><br><br>
+        <input type="submit" value="SEND">
+    </form>
+</body>
+</html>

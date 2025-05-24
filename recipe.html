@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Cards</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="home.css">
+  <link href="recipe.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logocontent">
+        <a href="#"class="logo"><img src="logo1.jpg" alt="logo" ></a>
+        <h1 class="logoname">Bachelors Kitchen</h1>
+    </div>
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="recipe.html">Top Dishes</a>
+        <div class="dropdown">
+          <a href="">Category</a> 
+          <div class="dropdown-content">
+              <a href="veg.html">Veg</a>
+              <a href="nonveg.html">Non veg</a>
+              <a href="dessart.html">Desserts</a>
+              <!-- Add more categories as needed -->
+          </div>
+          </div>
+          <div class="dropdown">   
+            <a href="#quick">Quick and Easy</a>
+            <div class="dropdown-content">
+                <a href="breakfast.html">Breakfast</a>
+                <a href="Lunch.html">Lunch</a>
+                <a href="dinner.html">Dinner</a>
+                <!-- Add more categories as needed -->
+            </div>
+            </div>
+        <a href="brp.html">About</a>
+        
+    </nav>
+
+   
+  </header>
+    
+   
+</header>
+  
+  
+  <div class="container mt-4">
+    <div class="jumbotron welcome-text text-center">
+     
+      <h1 class="display-4">Recipes & Cooking Ideas</h1>
+      <p class="lead">Explore the diverse culinary delights of <span class="food-label">Tamil Nadu</span>, <span class="food-label">Kerala</span>, and <span class="food-label">Andhra Pradesh</span>.</p>
+      <hr class="my-4">
+      <p>From the fragrant spices of Tamil Nadu to the coconut-infused dishes of Kerala and the fiery delicacies of Andhra Pradesh, discover the rich flavors of South India.</p>
+    </div>
+  </div>
+  
+
+  <div class="container">
+
+    <div id="recipe1" class="recipe-card">
+      <img src="dosai.jpg" alt="Dosa">
+      <h2 class="recipe-title">Dosa</h2>
+      <p class="recipe-description">A popular South Indian crepe made from fermented rice and lentil batter.</p>
+      <p class="recipe-info">Prep Time: 8 hours | Cook Time: 10 minutes | Total Time: 8 hours 10 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('recipe-details1')">Get Recipe</button>
+    </div>
+
+    <div id="recipe-details1" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 cup rice</li>
+        <li>1/2 cup urad dal (split black lentils)</li>
+        <li>1/4 cup chana dal (split chickpeas)</li>
+        <li>1/2 teaspoon fenugreek seeds</li>
+        <li>Salt to taste</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Wash and soak rice, urad dal, chana dal, and fenugreek seeds separately in water for 6-8 hours.</li>
+        <li>Grind the soaked ingredients into a smooth batter. Add salt and mix well.</li>
+        <li>Heat a non-stick skillet or griddle. Pour a ladleful of batter and spread it in a circular motion to form a thin crepe.</li>
+        <li>Drizzle some oil around the edges and cook until the dosa turns golden brown and crisp.</li>
+        <li>Serve hot with chutney and sambar.</li>
+      </ol>
+    </div>
+
+    <div id="recipe2" class="recipe-card">
+      <img src="sambar.jpg" alt="Sambhar">
+      <h2 class="recipe-title">Sambhar</h2>
+      <p class="recipe-description">A flavorful South Indian lentil stew made with vegetables and spices.</p>
+      <p class="recipe-info">Prep Time: 15 minutes | Cook Time: 30 minutes | Total Time: 45 minutes</p>
+      <p class="recipe-info">Serves: 6</p>
+      <button class="recipe-button" onclick="showRecipe('recipe-details3')">Get Recipe</button>
+    </div>
+
+    <div id="recipe-details3" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1/2 cup toor dal (pigeon peas)</li>
+        <li>1 cup mixed vegetables (e.g., carrots, potatoes, drumsticks, beans)</li>
+        <li>2 tomatoes, chopped</li>
+        <li>1 onion, chopped</li>
+        <li>2 green chilies, slit</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1 tablespoon tamarind paste</li>
+        <li>1 tablespoon sambar powder</li>
+        <li>1 teaspoon mustard seeds</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>A few curry leaves</li>
+        <li>2 tablespoons oil</li>
+        <li>Salt to taste</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Pressure cook toor dal with water until soft and mushy. Mash and set aside.</li>
+        <li>Heat oil in a pan. Add mustard seeds and cumin seeds. Once they splutter, add curry leaves, chopped onions, and green chilies. Sauté until onions turn translucent.</li>
+        <li>Add chopped tomatoes and cook until they turn mushy.</li>
+        <li>Add mixed vegetables, turmeric powder, sambar powder, tamarind paste, and salt. Mix well and cook until vegetables are tender.</li>
+        <li>Add cooked toor dal and water to adjust the consistency. Bring it to a boil and simmer for a few minutes.</li>
+        <li>Prepare tempering by heating oil in a small pan. Add mustard seeds and curry leaves. Once they splutter, pour the tempering over the sambhar.</li>
+        <li>Serve hot with idli, dosa, or rice.</li>
+      </ol>
+    </div>
+
+    <div id="recipe3" class="recipe-card">
+      <img src="html/briyani.jpg" alt="Vegetable Biryani">
+      <h2 class="recipe-title">Vegetable Biryani</h2>
+      <p class="recipe-description">A flavorful rice dish cooked with mixed vegetables and aromatic spices.</p>
+      <p class="recipe-info">Preparation Time: 30 mins | Cook Time: 30 minutes | </p>
+      <p class="recipe-info">Serves: 6</p>
+      <button class="recipe-button" onclick="showRecipe('veg_biryani')">Get Recipe</button>
+    </div>
+
+    <div id="veg_biryani" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>2 cups basmati rice</li>
+        <li>2 cups mixed vegetables (carrots, peas, potatoes, beans)</li>
+        <li>1 onion, thinly sliced</li>
+        <li>2 tomatoes, chopped</li>
+        <li>4 cloves garlic, minced</li>
+        <li>1-inch ginger, grated</li>
+        <li>1 green chili, chopped</li>
+        <li>1/4 cup yogurt</li>
+        <li>1/4 cup chopped mint leaves</li>
+        <li>1/4 cup chopped coriander leaves</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1 teaspoon garam masala</li>
+        <li>Salt to taste</li>
+        <li>2 tablespoons ghee or oil</li>
+        <li>3 cups water</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Wash and soak basmati rice in water for 30 minutes. Drain and set aside.</li>
+        <li>Heat ghee/oil in a pan. Add cumin seeds and let them splutter.</li>
+        <li>Add sliced onions, ginger, garlic, and green chili. Sauté until onions turn golden brown.</li>
+        <li>Add chopped tomatoes and cook until they turn mushy.</li>
+        <li>Add mixed vegetables, turmeric powder, garam masala, mint leaves, and coriander leaves. Cook for 2 minutes.</li>
+        <li>Add soaked rice, yogurt, salt, and water. Mix well.</li>
+        <li>Cover and cook on low heat until rice is cooked and all the water is absorbed.</li>
+        <li>Fluff the rice gently with a fork and serve hot.</li>
+      </ol>
+    </div>
+
+    <div class="recipe-card">
+      <img src="chicken briyani.jpg" alt="chicken Biryani">
+      <h2 class="recipe-title">Hyderabadi Biryani</h2>
+      <p class="recipe-description">A classic Indian dish made with flavorful chicken and aromatic spices.</p>
+      <p class="recipe-info">Preparation Time: 30 mins | Cook Time: 40 minutes |</p><br>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('chicken_biryani')">Get Recipe</button>
+    </div>
+
+    <div id="chicken_biryani" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>2 cups basmati rice</li>
+        <li>1 kg chicken, cut into pieces</li>
+        <li>2 onions, thinly sliced</li>
+        <li>3 tomatoes, chopped</li>
+        <li>4 cloves garlic, minced</li>
+        <li>1-inch ginger, grated</li>
+        <li>2 green chilies, slit</li>
+        <li>1/2 cup yogurt</li>
+        <li>1/4 cup chopped mint leaves</li>
+        <li>1/4 cup chopped coriander leaves</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1 teaspoon garam masala</li>
+        <li>Salt to taste</li>
+        <li>4 tablespoons ghee or oil</li>
+        <li>3 cups water</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Wash and soak basmati rice in water for 30 minutes. Drain and set aside.</li>
+        <li>Heat ghee/oil in a large pot. Add cumin seeds and let them splutter.</li>
+        <li>Add sliced onions, ginger, garlic, and green chilies. Sauté until onions turn golden brown.</li>
+        <li>Add chopped tomatoes and cook until they turn mushy.</li>
+        <li>Add chicken pieces and cook until they are no longer pink.</li>
+        <li>Add turmeric powder, garam masala, mint leaves, coriander leaves, yogurt, and salt. Mix well.</li>
+        <li>Add soaked rice and water. Bring to a boil, then reduce the heat to low and cover. Cook for 20 minutes or until rice is tender and chicken is cooked through.</li>
+        <li>Fluff the rice gently with a fork and serve hot.</li>
+      </ol>
+    </div>
+    
+    <div class="recipe-card">
+      <img src="html/Kadala Curry.jpg" alt="Recipe Image">
+      <h2 class="recipe-title">Puttu  Kadala Curry</h2>
+      <p class="recipe-description">A traditional Kerala breakfast consisting of steamed rice and coconut cylinders served with spicy chickpea curry.</p>
+      <p class="recipe-info">Preparation Time: 20 mins | Cook Time: 40 minutes | Total Time: 1 hour</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('puttu_kadala')">Get Recipe</button>
+    </div>
+
+    <div id="puttu_kadala" class="recipe-details" style="display: none;">
+      <h3>Ingredients for Puttu:</h3>
+      <ul class="ingredient-list">
+        <li>2 cups rice flour</li>
+        <li>1 cup grated coconut</li>
+        <li>Water, as needed</li>
+        <li>Salt to taste</li>
+      </ul>
+      <h3>Instructions for Puttu:</h3>
+      <ol class="instruction-list">
+        <li>In a bowl, mix rice flour and salt. Sprinkle water little by little and mix until the flour resembles breadcrumbs.</li>
+        <li>Layer the puttu maker with grated coconut and the prepared rice flour mixture alternatively.</li>
+        <li>Steam for about 10-15 minutes until the puttu is cooked and appears fluffy.</li>
+      </ol>
+      <h3>Ingredients for Kadala Curry:</h3>
+      <ul class="ingredient-list">
+        <li>2 cups black chickpeas (kadala)</li>
+        <li>1 onion, finely chopped</li>
+        <li>2 tomatoes, finely chopped</li>
+        <li>3-4 green chilies, slit</li>
+        <li>1-inch ginger, grated</li>
+        <li>4 cloves garlic, minced</li>
+        <li>1 sprig curry leaves</li>
+        <li>1 teaspoon mustard seeds</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>1 tablespoon coriander powder</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1/2 teaspoon red chili powder</li>
+        <li>1/2 teaspoon garam masala</li>
+        <li>1 cup thick coconut milk</li>
+        <li>2 tablespoons coconut oil</li>
+        <li>Salt to taste</li>
+      </ul>
+      <h3>Instructions for Kadala Curry:</h3>
+      <ol class="instruction-list">
+        <li>Soak the black chickpeas in water overnight. Drain and rinse.</li>
+        <li>Pressure cook the chickpeas with enough water and salt until they are soft and cooked through.</li>
+        <li>In a pan, heat coconut oil. Add mustard seeds and cumin seeds. Let them splutter.</li>
+        <li>Add chopped onions, green chilies, ginger, garlic, and curry leaves. Sauté until onions turn translucent.</li>
+        <li>Add chopped tomatoes and cook until they are mushy.</li>
+        <li>Add coriander powder, turmeric powder, red chili powder, and garam masala. Mix well and cook for a couple of minutes.</li>
+        <li>Add the cooked chickpeas along with its water. Mix well and simmer for 10-15 minutes.</li>
+        <li>Finally, add thick coconut milk and simmer for another 5 minutes.</li>
+        <li>Adjust the seasoning and serve hot with puttu.</li>
+      </ol>
+    </div>
+
+    <div class="recipe-card">
+      <img src="Mutton Biryani.jpg" alt="mutton Biryani">
+      <h2 class="recipe-title">Mutton Biryani</h2>
+      <p class="recipe-description">A flavorful rice dish made with tender mutton pieces and aromatic spices.</p><br>
+      <p class="recipe-info">Preparation Time: 30 mins | Cook Time: 1 hour |</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('mutton_biryani')">Get Recipe</button>
+    </div>
+
+    <div id="mutton_biryani" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>2 cups basmati rice</li>
+        <li>1 kg mutton, cut into pieces</li>
+        <li>2 onions, thinly sliced</li>
+        <li>3 tomatoes, chopped</li>
+        <li>4 cloves garlic, minced</li>
+        <li>1-inch ginger, grated</li>
+        <li>2 green chilies, slit</li>
+        <li>1/2 cup yogurt</li>
+        <li>1/4 cup chopped mint leaves</li>
+        <li>1/4 cup chopped coriander leaves</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1 teaspoon garam masala</li>
+        <li>Salt to taste</li>
+        <li>4 tablespoons ghee or oil</li>
+        <li>3 cups water</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Wash and soak basmati rice in water for 30 minutes. Drain and set aside.</li>
+        <li>Heat ghee/oil in a large pot. Add cumin seeds and let them splutter.</li>
+        <li>Add sliced onions, ginger, garlic, and green chilies. Sauté until onions turn golden brown.</li>
+        <li>Add chopped tomatoes and cook until they turn mushy.</li>
+        <li>Add mutton pieces and cook until they are browned.</li>
+        <li>Add turmeric powder, garam masala, mint leaves, coriander leaves, yogurt, and salt. Mix well.</li>
+        <li>Add soaked rice and water. Bring to a boil, then reduce the heat to low and cover. Cook for 40-45 minutes or until rice is tender and mutton is cooked through.</li>
+        <li>Fluff the rice gently with a fork and serve hot.</li>
+      </ol>
+    </div>
+    <div class="recipe-card">
+      <img src="pulihora.jpg" alt="Recipe Image">
+      <h2 class="recipe-title">Pulihora</h2>
+      <p class="recipe-description">A tangy and spicy South Indian rice dish flavored with tamarind and spices.</p>
+      <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 20 minutes | Total Time: 35 minutes</p><br><br>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('pulihora')">Get Recipe</button>
+    </div>
+
+    <div id="pulihora" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 cup rice</li>
+        <li>2 cups water</li>
+        <li>1 lemon-sized tamarind ball</li>
+        <li>3 tablespoons oil</li>
+        <li>1 teaspoon mustard seeds</li>
+        <li>1 teaspoon chana dal (split chickpeas)</li>
+        <li>1 teaspoon urad dal (split black lentils)</li>
+        <li>1/4 teaspoon turmeric powder</li>
+        <li>8-10 curry leaves</li>
+        <li>2-3 dried red chilies</li>
+        <li>1/4 cup peanuts</li>
+        <li>1/4 cup cashew nuts (optional)</li>
+        <li>Salt to taste</li>
+        <li>Coriander leaves for garnish</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Cook rice with 2 cups of water and let it cool down.</li>
+        <li>Soak the tamarind in warm water for 10 minutes. Extract the juice and set aside.</li>
+        <li>Heat oil in a pan. Add mustard seeds and let them splutter.</li>
+        <li>Add chana dal, urad dal, peanuts, cashew nuts (if using), dried red chilies, and curry leaves. Sauté until dals turn golden brown.</li>
+        <li>Add turmeric powder and sauté for a few seconds.</li>
+        <li>Add the tamarind extract, salt, and allow it to boil until the raw smell of tamarind disappears.</li>
+        <li>Add the cooked rice and mix well until all the rice grains are coated with the tamarind mixture.</li>
+        <li>Garnish with coriander leaves and serve hot or at room temperature.</li>
+      </ol>
+    </div>
+    <div class="recipe-card">
+      <img src="Kerala style Prawn Curry.jpg" alt="Recipe Image">
+      <h2 class="recipe-title">Kerala Prawn Curry</h2>
+      <p class="recipe-description">A traditional Kerala-style curry featuring succulent prawns cooked in a flavorful coconut-based gravy.</p>
+      <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 25 minutes | Total Time: 40 minutes</p><br>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('kerala_prawn_curry')">Get Recipe</button>
+    </div>
+    
+    <div id="kerala_prawn_curry" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>500g prawns, cleaned and deveined</li>
+        <li>1 onion, finely chopped</li>
+        <li>2 tomatoes, chopped</li>
+        <li>1 tablespoon ginger-garlic paste</li>
+        <li>2 green chilies, slit</li>
+        <li>1 sprig curry leaves</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1 tablespoon red chili powder</li>
+        <li>1 teaspoon coriander powder</li>
+        <li>1/2 teaspoon fenugreek seeds</li>
+        <li>1 cup thick coconut milk</li>
+        <li>1/2 cup water</li>
+        <li>2 tablespoons coconut oil</li>
+        <li>Salt to taste</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Heat coconut oil in a pan and add fenugreek seeds. Allow them to splutter.</li>
+        <li>Add chopped onions, green chilies, and curry leaves. Saute until onions turn golden brown.</li>
+        <li>Add ginger-garlic paste and sauté until the raw smell disappears.</li>
+        <li>Add chopped tomatoes and cook until they turn mushy.</li>
+        <li>Add turmeric powder, red chili powder, and coriander powder. Mix well.</li>
+        <li>Add cleaned prawns and salt. Cook for 2-3 minutes.</li>
+        <li>Pour thick coconut milk and water. Mix gently.</li>
+        <li>Cover and cook on low heat for 10-15 minutes or until the prawns are cooked through.</li>
+        <li>Adjust the consistency of the curry according to your preference by adding more water if needed.</li>
+        <li>Once done, garnish with curry leaves and serve hot with steamed rice or appam.</li>
+      </ol>
+    </div>
+    
+    <div class="recipe-card">
+      <img src="medu vadai.jpg" alt="Recipe Image">
+      <h2 class="recipe-title">Medhu Vada</h2>
+      <p class="recipe-description">A popular South Indian savory snack made from urad dal batter, deep-fried to golden perfection.</p>
+      <p class="recipe-info">Preparation Time: 8 hours (for soaking dal) | Cook Time: 20 minutes | Total Time: 8 hours 20 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('medhu_vada')">Get Recipe</button>
+    </div>
+    
+    <div id="medhu_vada" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 cup urad dal (black lentils)</li>
+        <li>2-3 green chilies, chopped</li>
+        <li>1 inch ginger, finely chopped</li>
+        <li>A few curry leaves, chopped</li>
+        <li>2 tablespoons rice flour (optional)</li>
+        <li>Salt to taste</li>
+        <li>Oil for deep frying</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Wash urad dal thoroughly and soak it in water for 6-8 hours or overnight.</li>
+        <li>Drain the soaked dal and grind it into a smooth batter, adding very little water if necessary.</li>
+        <li>Add chopped green chilies, ginger, curry leaves, rice flour (if using), and salt to the batter. Mix well.</li>
+        <li>Heat oil in a deep pan for frying.</li>
+        <li>Wet your hands, take a small portion of the batter, and shape it into a flat disc with a hole in the center.</li>
+        <li>Gently slide the vada into the hot oil and fry until golden brown and crispy.</li>
+        <li>Remove the vadas from oil using a slotted spoon and drain excess oil on paper towels.</li>
+        <li>Serve hot with coconut chutney or sambar.</li>
+      </ol>
+    </div>
+    </div>
+    <div class="pagination-container"></div>
+    <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a href="" class="active">1</a>
+      <a href="recipe2.html">2</a>
+      <a href="recipe3.html">3</a>
+      <a href="recipe4.html">4</a>
+      <a href="#">5</a>
+      <a href="#">&raquo;</a>
+    </div>
+    <script src="recipe.js"> </script>
+    <script src="back.js"></script>
+
+ 
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f7fff6; /* Lightest Green */
+        }
+        .container {
+            background-color: #bcebcb; /* Light Green */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        header {
+            background-color: #87d68d; /* Green */
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50%;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        input[type="number"] {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #93b48b; /* Darker Green */
+            width: 50px;
+            text-align: center;
+            font-size: 18px;
+        }
+        button {
+            background-color: #8491a3; /* Grayish Blue */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #6a7481; /* Dark Grayish Blue */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>🔐</header>
+        <h2>Enter OTP Code</h2>
+        <form action="">
+            <input type="number" maxlength="1" required>
+            <input type="number" maxlength="1" required>
+            <input type="number" maxlength="1" required>
+            <input type="number" maxlength="1" required>
+            <button type="submit">Verify OTP</button>
+        </form>
+    </div>
+    
+    <script>
+        // Function to verify the entered OTP
+        function verifyOTP() {
+            // Get the values of all OTP digits
+            const digit1 = document.getElementById('digit1').value;
+            const digit2 = document.getElementById('digit2').value;
+            const digit3 = document.getElementById('digit3').value;
+            const digit4 = document.getElementById('digit4').value;
+
+            // Concatenate the digits to form the entered OTP
+            const enteredOTP = digit1 + digit2 + digit3 + digit4;
+
+            // Example OTP for demonstration (Replace with your OTP)
+            const actualOTP = "1234";
+
+            // Compare the entered OTP with the actual OTP
+            if (enteredOTP === actualOTP) {
+                alert("OTP Verified Successfully!");
+                // You can redirect the user to another page or perform any action here
+            } else {
+                alert("Invalid OTP. Please try again.");
+            }
+        }
+
+        // Event listener for form submission
+        document.getElementById('otpForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+            verifyOTP(); // Call the verifyOTP function
+        });
+    </script>
+</body>
+</html>

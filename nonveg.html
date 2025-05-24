@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Cards - Page 2</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="home.css">
+  <link href="recipe.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logocontent">
+        <a href="#"class="logo"><img src="logo1.jpg" alt="logo" ></a>
+        <h1 class="logoname">Bachelors Kitchen</h1>
+    </div>
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="recipe.html">Top Dishes</a>
+        <div class="dropdown">
+          <a href="">Category</a> 
+          <div class="dropdown-content">
+              <a href="veg.html">Veg</a>
+              <a href="nonveg.html">Non veg</a>
+              <a href="dessart.html">Desserts</a>
+              <!-- Add more categories as needed -->
+          </div>
+          </div>
+          <div class="dropdown">   
+            <a href="#quick">Quick and Easy</a>
+            <div class="dropdown-content">
+                <a href="breakfast.html">Breakfast</a>
+                <a href="Lunch.html">Lunch</a>
+                <a href="dinner.html">Dinner</a>
+                <!-- Add more categories as needed -->
+            </div>
+            </div>
+        <a href="brp.html">About</a>
+        
+    </nav>
+
+   
+</header>
+
+    <!-- Paya Kari -->
+<div class="recipe-card">
+    <img src="Mutton Paya.jpg" alt="Paya Kari">
+    <h2 class="recipe-title">Paya Kari</h2>
+    <p class="recipe-description">A rich and flavorful South Indian curry made with tender goat trotters.</p>
+    <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 2 hours | Total Time: 2 hours 20 minutes</p>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('paya_kari_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="paya_kari_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>4-6 goat trotters (paya)</li>
+      <li>2 onions, finely chopped</li>
+      <li>2 tomatoes, chopped</li>
+      <li>1 tablespoon ginger-garlic paste</li>
+      <li>2 green chilies, slit</li>
+      <li>1 teaspoon cumin seeds</li>
+      <li>1 tablespoon coriander powder</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>1 teaspoon red chili powder</li>
+      <li>1 tablespoon garam masala</li>
+      <li>2 tablespoons oil</li>
+      <li>A few curry leaves</li>
+      <li>Salt to taste</li>
+      <li>Coriander leaves for garnish</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Clean and wash the goat trotters thoroughly. Pressure cook them until tender with some salt and turmeric powder.</li>
+      <li>Heat oil in a pan. Add cumin seeds and let them splutter.</li>
+      <li>Add chopped onions and sauté until golden brown.</li>
+      <li>Add ginger-garlic paste, slit green chilies, and curry leaves. Sauté until the raw smell disappears.</li>
+      <li>Add chopped tomatoes and cook until they turn mushy.</li>
+      <li>Add coriander powder, red chili powder, garam masala, and salt. Mix well.</li>
+      <li>Add the cooked goat trotters along with the broth. Mix well and simmer for about 30-40 minutes until the flavors meld together.</li>
+      <li>Garnish with coriander leaves and serve hot with rice or roti.</li>
+    </ol>
+  </div>
+  
+  <!-- Mutton Kola Urundai -->
+  <div class="recipe-card">
+    <img src="Mutton Kola.jpg" alt="Mutton Kola Urundai">
+    <h2 class="recipe-title">Mutton Kola Urundai</h2>
+    <p class="recipe-description">Deep-fried meatballs made with minced mutton and aromatic spices.</p>
+    <p class="recipe-info">Preparation Time: 30 minutes | Cook Time: 20 minutes | Total Time: 50 minutes</p>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('mutton_kola_urundai_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="mutton_kola_urundai_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>500 grams minced mutton</li>
+      <li>2 onions, finely chopped</li>
+      <li>2 green chilies, finely chopped</li>
+      <li>1 tablespoon ginger-garlic paste</li>
+      <li>1 tablespoon fennel seeds</li>
+      <li>1 tablespoon coriander powder</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>1 teaspoon red chili powder</li>
+      <li>1 tablespoon garam masala</li>
+      <li>A handful of coriander leaves, chopped</li>
+      <li>A handful of mint leaves, chopped</li>
+      <li>1 egg, beaten</li>
+      <li>2 tablespoons gram flour (besan)</li>
+      <li>Salt to taste</li>
+      <li>Oil for frying</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>In a mixing bowl, combine minced mutton, chopped onions, green chilies, ginger-garlic paste, fennel seeds, coriander powder, turmeric powder, red chili powder, garam masala, chopped coriander leaves, chopped mint leaves, beaten egg, gram flour, and salt. Mix well to form a dough-like consistency.</li>
+      <li>Take small portions of the mixture and shape them into small round balls (urundai).</li>
+      <li>Heat oil in a deep frying pan. Once the oil is hot, deep fry the mutton balls in batches until they turn golden brown and crispy.</li>
+      <li>Remove from oil and drain excess oil on a paper towel.</li>
+      <li>Serve hot with your favorite sauce or chutney.</li>
+    </ol>
+  </div>
+  
+  <!-- Monica Chicken -->
+  <div class="recipe-card">
+    <img src="chicken65.jpg" alt="Monica Chicken">
+    <h2 class="recipe-title">Monica Chicken</h2>
+    <p class="recipe-description">A spicy and tangy chicken curry with a unique blend of flavors.</p>
+    <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 30 minutes | Total Time: 45 minutes</p>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('monica_chicken_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="monica_chicken_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>500 grams chicken, cut into pieces</li>
+      <li>2 onions, finely chopped</li>
+      <li>2 tomatoes, chopped</li>
+      <li>1 tablespoon ginger-garlic paste</li>
+      <li>2 green chilies, slit</li>
+      <li>1 teaspoon cumin seeds</li>
+      <li>1 tablespoon coriander powder</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>1 teaspoon red chili powder</li>
+      <li>1/2 cup tamarind extract</li>
+      <li>1 tablespoon jaggery or brown sugar</li>
+      <li>A few curry leaves</li>
+      <li>2 tablespoons oil</li>
+      <li>Salt to taste</li>
+      <li>Coriander leaves for garnish</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Heat oil in a pan. Add cumin seeds and let them splutter.</li>
+      <li>Add chopped onions and sauté until golden brown.</li>
+      <li>Add ginger-garlic paste, slit green chilies, and curry leaves. Sauté until the raw smell disappears.</li>
+      <li>Add chopped tomatoes and cook until they turn mushy.</li>
+      <li>Add coriander powder, turmeric powder, red chili powder, and salt. Mix well.</li>
+      <li>Add chicken pieces and sauté until they are well coated with the masala.</li>
+      <li>Add tamarind extract and jaggery. Mix well and bring it to a boil.</li>
+      <li>Reduce the heat and simmer for about 20-25 minutes until the chicken is cooked through and the gravy thickens.</li>
+      <li>Garnish with coriander leaves and serve hot with rice or roti.</li>
+    </ol>
+  </div>
+  
+<div class="recipe-card">
+    <img src="Madurai Kari Dosai.jpg" alt="Kari Dosai">
+    <h2 class="recipe-title">Kari Dosai</h2>
+    <p class="recipe-description">A delicious South Indian dish consisting of dosa served with a spicy mutton curry.</p>
+    <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 1 hour | Total Time: 1 hour 20 minutes</p><br>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('kari_dosai_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="kari_dosai_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>Dosai batter (as required)</li>
+      <li>500 grams mutton, cut into pieces</li>
+      <li>2 onions, finely chopped</li>
+      <li>2 tomatoes, chopped</li>
+      <li>1 tablespoon ginger-garlic paste</li>
+      <li>1 teaspoon cumin seeds</li>
+      <li>1 teaspoon coriander powder</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>1 teaspoon red chili powder</li>
+      <li>1/2 cup coconut milk</li>
+      <li>A few curry leaves</li>
+      <li>2 tablespoons oil</li>
+      <li>Salt to taste</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Heat oil in a pressure cooker. Add cumin seeds and let them splutter.</li>
+      <li>Add chopped onions and sauté until golden brown.</li>
+      <li>Add ginger-garlic paste and sauté until the raw smell disappears.</li>
+      <li>Add chopped tomatoes and cook until they turn mushy.</li>
+      <li>Add mutton pieces, turmeric powder, coriander powder, red chili powder, and salt. Mix well.</li>
+      <li>Add coconut milk and enough water to cover the mutton pieces. Pressure cook for 4-5 whistles or until the mutton is tender.</li>
+      <li>Once the pressure releases, open the cooker and cook on high flame until the gravy thickens.</li>
+      <li>To make dosai, heat a tawa and pour a ladleful of dosa batter. Spread it in a circular motion.</li>
+      <li>Drizzle some oil around the edges and cook until the dosa turns golden brown.</li>
+      <li>Serve hot dosai with the prepared mutton curry.</li>
+    </ol>
+  </div>
+  
+  <!-- Mutton Soup -->
+  <div class="recipe-card">
+    <img src="mutton soup.jpg" alt="Mutton Soup">
+    <h2 class="recipe-title">Mutton Soup</h2>
+    <p class="recipe-description">A comforting and nutritious soup made with tender mutton pieces and flavored with aromatic spices.</p>
+    <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 45 minutes | Total Time: 1 hour</p>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('mutton_soup_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="mutton_soup_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>500 grams mutton pieces</li>
+      <li>2 onions, finely chopped</li>
+      <li>2 tomatoes, chopped</li>
+      <li>1 tablespoon ginger-garlic paste</li>
+      <li>1 teaspoon cumin seeds</li>
+      <li>1 teaspoon black peppercorns</li>
+      <li>1 cinnamon stick</li>
+      <li>2-3 cloves</li>
+      <li>2 cardamom pods</li>
+      <li>1 bay leaf</li>
+      <li>A few curry leaves</li>
+      <li>1/2 cup coriander leaves, chopped</li>
+      <li>Salt to taste</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Heat oil in a pressure cooker. Add cumin seeds, peppercorns, cinnamon stick, cloves, cardamom pods, and bay leaf. Sauté for a minute.</li>
+      <li>Add chopped onions and sauté until translucent.</li>
+      <li>Add ginger-garlic paste and sauté until the raw smell disappears.</li>
+      <li>Add chopped tomatoes and cook until they turn mushy.</li>
+      <li>Add mutton pieces, salt, and enough water to cover the mutton. Pressure cook for 5-6 whistles or until the mutton is tender.</li>
+      <li>Once the pressure releases, open the cooker and add curry leaves and chopped coriander leaves.</li>
+      <li>Simmer for 5-10 minutes on low heat. Adjust the consistency by adding more water if needed.</li>
+      <li>Serve hot mutton soup garnished with coriander leaves.</li>
+    </ol>
+  </div>
+  <!-- Thalapakatti Biryani -->
+<div class="recipe-card">
+    <img src="dk.jpg" alt="Thalapakatti Biryani">
+    <h2 class="recipe-title">Thalapakatti Biryani</h2>
+    <p class="recipe-description">A flavorful and aromatic biryani originating from the region of Dindigul, Tamil Nadu, India.</p>
+    <p class="recipe-info">Preparation Time: 30 minutes | Cook Time: 1 hour | Total Time: 1 hour 30 minutes</p>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('thalapakatti_biryani_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="thalapakatti_biryani_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>2 cups basmati rice, soaked for 30 minutes</li>
+      <li>500 grams mutton, cut into pieces</li>
+      <li>2 onions, thinly sliced</li>
+      <li>2 tomatoes, chopped</li>
+      <li>1/2 cup yogurt</li>
+      <li>1 tablespoon ginger-garlic paste</li>
+      <li>1 teaspoon cumin seeds</li>
+      <li>1 teaspoon garam masala</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>1 teaspoon red chili powder</li>
+      <li>1 bay leaf</li>
+      <li>4-5 whole cloves</li>
+      <li>4-5 whole black peppercorns</li>
+      <li>2-3 cardamom pods</li>
+      <li>A pinch of saffron strands (optional)</li>
+      <li>2 tablespoons ghee or oil</li>
+      <li>Salt to taste</li>
+      <li>Coriander leaves for garnish</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Heat ghee or oil in a pan. Add cumin seeds, bay leaf, cloves, peppercorns, and cardamom pods. Sauté for a minute.</li>
+      <li>Add sliced onions and sauté until golden brown.</li>
+      <li>Add ginger-garlic paste and sauté until the raw smell disappears.</li>
+      <li>Add chopped tomatoes and cook until they turn soft.</li>
+      <li>Add mutton pieces and cook until they are browned.</li>
+      <li>Add yogurt, garam masala, turmeric powder, red chili powder, and salt. Mix well.</li>
+      <li>Cover and cook until the mutton is tender.</li>
+      <li>Meanwhile, boil water in a separate pot. Add soaked basmati rice and cook until 70-80% done. Drain the excess water.</li>
+      <li>Add the partially cooked rice to the mutton mixture. Cover and cook on low heat for 10-15 minutes until the rice is fully cooked and the flavors are well absorbed.</li>
+      <li>If using saffron, dissolve it in a tablespoon of warm milk and drizzle over the biryani. Garnish with coriander leaves before serving.</li>
+    </ol>
+  </div>
+  
+  <!-- Fish Gravy -->
+  <div class="recipe-card">
+    <img src="Varutharacha meen curry.jpg" alt="Fish Gravy">
+    <h2 class="recipe-title">Fish Gravy</h2>
+    <p class="recipe-description">A delicious South Indian curry made with fish pieces cooked in a spicy and tangy gravy.</p>
+    <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 30 minutes | Total Time: 50 minutes</p>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('fish_gravy_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="fish_gravy_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>500 grams fish pieces (any firm fish like kingfish, tilapia, or salmon)</li>
+      <li>2 onions, finely chopped</li>
+      <li>2 tomatoes, chopped</li>
+      <li>1 tablespoon ginger-garlic paste</li>
+      <li>1 teaspoon cumin seeds</li>
+      <li>1 teaspoon coriander powder</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>1 teaspoon red chili powder</li>
+      <li>1/2 cup tamarind extract</li>
+      <li>A few curry leaves</li>
+      <li>2 tablespoons oil</li>
+      <li>Salt to taste</li>
+      <li>Coriander leaves for garnish</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Heat oil in a pan. Add cumin seeds and let them splutter.</li>
+      <li>Add chopped onions and sauté until translucent.</li>
+      <li>Add ginger-garlic paste and sauté until the raw smell disappears.</li>
+      <li>Add chopped tomatoes and cook until they turn mushy.</li>
+      <li>Add coriander powder, turmeric powder, red chili powder, and salt. Mix well.</li>
+      <li>Add tamarind extract and enough water to make a gravy consistency.</li>
+      <li>Bring the gravy to a boil and then simmer for 10-15 minutes.</li>
+      <li>Add fish pieces and curry leaves. Cover and cook until the fish is cooked through.</li>
+      <li>Garnish with coriander leaves and serve hot with steamed rice or dosa.</li>
+    </ol>
+  </div>
+  <!-- Crab Fry -->
+<div class="recipe-card">
+    <img src="Crab Masala Fry Recipe _ Chettinad Nandu Varuval _ Crab Fry- Masalakorb.jpg" alt="Crab Fry">
+    <h2 class="recipe-title">Crab Fry</h2>
+    <p class="recipe-description">A delicious and spicy South Indian crab fry recipe.</p>
+    <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 25 minutes | Total Time: 45 minutes</p><br>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('crab_fry_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="crab_fry_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>500 grams crab, cleaned and cut into pieces</li>
+      <li>2 onions, finely chopped</li>
+      <li>2 tomatoes, chopped</li>
+      <li>1 tablespoon ginger-garlic paste</li>
+      <li>1 teaspoon cumin seeds</li>
+      <li>1 teaspoon coriander powder</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>1 teaspoon red chili powder</li>
+      <li>A pinch of asafoetida (hing)</li>
+      <li>A few curry leaves</li>
+      <li>2 tablespoons oil</li>
+      <li>Salt to taste</li>
+      <li>Coriander leaves for garnish</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Heat oil in a pan. Add cumin seeds and let them splutter.</li>
+      <li>Add chopped onions and sauté until translucent.</li>
+      <li>Add ginger-garlic paste and sauté until the raw smell disappears.</li>
+      <li>Add chopped tomatoes and cook until they turn mushy.</li>
+      <li>Add coriander powder, turmeric powder, red chili powder, asafoetida, curry leaves, and salt. Mix well.</li>
+      <li>Add crab pieces and mix well to coat them with the masala.</li>
+      <li>Cover and cook on low heat for about 15-20 minutes until the crab is cooked through.</li>
+      <li>Once the crab is cooked and the masala is dry, garnish with coriander leaves and serve hot.</li>
+    </ol>
+  </div>
+  
+  <!-- Muttai Masala -->
+  <div class="recipe-card">
+    <img src="muttai mass.jpg" alt="Muttai Masala">
+    <h2 class="recipe-title">Muttai Masala</h2>
+    <p class="recipe-description">A spicy and flavorful South Indian egg curry.</p>
+    <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 20 minutes | Total Time: 35 minutes</p><br><br>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('muttai_masala_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="muttai_masala_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>6 eggs, hard-boiled and peeled</li>
+      <li>2 onions, finely chopped</li>
+      <li>2 tomatoes, chopped</li>
+      <li>1 tablespoon ginger-garlic paste</li>
+      <li>1 teaspoon cumin seeds</li>
+      <li>1 teaspoon coriander powder</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>1 teaspoon red chili powder</li>
+      <li>1/2 cup coconut milk</li>
+      <li>A few curry leaves</li>
+      <li>2 tablespoons oil</li>
+      <li>Salt to taste</li>
+      <li>Coriander leaves for garnish</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Heat oil in a pan. Add cumin seeds and let them splutter.</li>
+      <li>Add chopped onions and sauté until translucent.</li>
+      <li>Add ginger-garlic paste and sauté until the raw smell disappears.</li>
+      <li>Add chopped tomatoes and cook until they turn mushy.</li>
+      <li>Add coriander powder, turmeric powder, red chili powder, curry leaves, and salt. Mix well.</li>
+      <li>Add coconut milk and bring the gravy to a gentle simmer.</li>
+      <li>Cut the boiled eggs in half lengthwise and add them to the gravy.</li>
+      <li>Cover and cook for a few minutes until the eggs are heated through and the gravy thickens.</li>
+      <li>Garnish with coriander leaves and serve hot with rice or roti.</li>
+    </ol>
+  </div>
+  <!-- Kari Kolambu -->
+<div class="recipe-card">
+    <img src="kolambu.jpg" alt="Kari Kolambu">
+    <h2 class="recipe-title">Kari Kolambu</h2>
+    <p class="recipe-description">A spicy and tangy South Indian curry made with mutton.</p>
+    <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 1 hour | Total Time: 1 hour 20 minutes</p>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('kari_kolambu_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="kari_kolambu_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>500 grams mutton pieces</li>
+      <li>2 onions, finely chopped</li>
+      <li>2 tomatoes, chopped</li>
+      <li>1 tablespoon ginger-garlic paste</li>
+      <li>1 teaspoon mustard seeds</li>
+      <li>1 teaspoon cumin seeds</li>
+      <li>2-3 dry red chilies</li>
+      <li>1 tablespoon coriander powder</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>1 teaspoon red chili powder</li>
+      <li>1/2 cup tamarind extract</li>
+      <li>A few curry leaves</li>
+      <li>2 tablespoons oil</li>
+      <li>Salt to taste</li>
+      <li>Coriander leaves for garnish</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Heat oil in a pressure cooker. Add mustard seeds and cumin seeds.</li>
+      <li>Add chopped onions and sauté until translucent.</li>
+      <li>Add ginger-garlic paste and sauté until the raw smell disappears.</li>
+      <li>Add chopped tomatoes and cook until they turn mushy.</li>
+      <li>Add coriander powder, turmeric powder, red chili powder, and salt. Mix well.</li>
+      <li>Add mutton pieces and sauté until they are well coated with the masala.</li>
+      <li>Add tamarind extract and enough water to cover the mutton pieces.</li>
+      <li>Cover the pressure cooker and cook for about 4-5 whistles or until the mutton is tender.</li>
+      <li>Once the pressure releases, open the cooker, check the consistency, and adjust salt if needed.</li>
+      <li>Garnish with coriander leaves and serve hot with rice or roti.</li>
+    </ol>
+  </div>
+  
+  <!-- Chilli Mutton Fry -->
+  <div class="recipe-card">
+    <img src="mutton fry.jpg" alt="Chilli Mutton Fry">
+    <h2 class="recipe-title">Chilli Mutton Fry</h2>
+    <p class="recipe-description">A spicy and fiery dry mutton dish, perfect as a starter or side.</p>
+    <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 30 minutes | Total Time: 45 minutes</p>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('chilli_mutton_fry_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="chilli_mutton_fry_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>500 grams mutton, cut into bite-sized pieces</li>
+      <li>2 onions, finely chopped</li>
+      <li>2 tomatoes, finely chopped</li>
+      <li>1 tablespoon ginger-garlic paste</li>
+      <li>2 green chilies, slit</li>
+      <li>1 teaspoon black pepper powder</li>
+      <li>1 teaspoon cumin powder</li>
+      <li>1 teaspoon coriander powder</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>1 teaspoon red chili powder</li>
+      <li>1 tablespoon soy sauce</li>
+      <li>2 tablespoons oil</li>
+      <li>A few curry leaves</li>
+      <li>Salt to taste</li>
+      <li>Coriander leaves for garnish</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Heat oil in a pan. Add chopped onions and sauté until golden brown.</li>
+      <li>Add ginger-garlic paste and sauté until the raw smell disappears.</li>
+      <li>Add chopped tomatoes and cook until they turn mushy.</li>
+      <li>Add slit green chilies, black pepper powder, cumin powder, coriander powder, turmeric powder, red chili powder, and salt. Mix well.</li>
+      <li>Add mutton pieces and sauté until they are well coated with the masala.</li>
+      <li>Cover and cook on low heat until the mutton is tender and cooked through.</li>
+      <li>Add soy sauce and curry leaves. Mix well and cook for another 5 minutes.</li>
+      <li>Garnish with coriander leaves and serve hot as a starter or side dish.</li>
+    </ol>
+  </div>
+  
+  <!-- Mutton Chukka -->
+  <div class="recipe-card">
+    <img src="mutton chukka.jpg" alt="Mutton Chukka">
+    <h2 class="recipe-title">Mutton Chukka</h2>
+    <p class="recipe-description">A dry and spicy South Indian mutton dish, packed with flavors.</p>
+    <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 1 hour | Total Time: 1 hour 20 minutes</p>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('mutton_chukka_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="mutton_chukka_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>500 grams mutton pieces</li>
+      <li>2 onions, finely chopped</li>
+      <li>2 tomatoes, chopped</li>
+      <li>1 tablespoon ginger-garlic paste</li>
+      <li>2 green chilies, slit</li>
+      <li>1 tablespoon black pepper corns, crushed</li>
+      <li>1 tablespoon cumin seeds</li>
+      <li>1 tablespoon coriander powder</li>
+      <li>1/2 teaspoon turmeric powder</li>
+      <li>1 teaspoon red chili powder</li>
+      <li>1 tablespoon garam masala</li>
+      <li>2 tablespoons oil</li>
+      <li>A few curry leaves</li>
+      <li>Salt to taste</li>
+      <li>Coriander leaves for garnish</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Heat oil in a pressure cooker. Add cumin seeds and let them splutter.</li>
+      <li>Add chopped onions and sauté until golden brown.</li>
+      <li>Add ginger-garlic paste and slit green chilies. Sauté until the raw smell disappears.</li>
+      <li>Add chopped tomatoes and cook until they turn mushy.</li>
+      <li>Add mutton pieces, crushed black pepper, coriander powder, turmeric powder, red chili powder, and salt. Mix well.</li>
+      <li>Cover the pressure cooker and cook for about 4-5 whistles or until the mutton is tender.</li>
+      <li>Once the pressure releases, open the cooker, add garam masala and curry leaves. Cook until the gravy thickens and coats the mutton pieces.</li>
+      <li>Garnish with coriander leaves and serve hot with rice or roti.</li>
+    </ol>
+  </div>
+  </div>
+  <div class="container text-center">
+    <div class="pagination justify-content-center">
+      <div class="pagination-container"></div>
+      <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="recipe.html"class="active" >1</a>
+        <a href="recipe2.html" >2</a>
+        <a href="recipe3.html">3</a>
+        <a href="recipe4.html">4</a>
+        
+        
+        <a href="#">&raquo;</a>
+      </div>
+    </div>
+  </div>
+  
+  <script src="recipe.js"> </script>
+  <script src="home.js"></script>
+  
+  </body>
+  </html>
+  
+  
+  
+  

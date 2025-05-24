@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Cards - Page 2</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="home.css">
+  <link href="recipe.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logocontent">
+        <a href="#"class="logo"><img src="logo1.jpg" alt="logo" ></a>
+        <h1 class="logoname">Bachelors Kitchen</h1>
+    </div>
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="recipe.html">Top Dishes</a>
+        <div class="dropdown">
+          <a href="">Category</a> 
+          <div class="dropdown-content">
+              <a href="veg.html">Veg</a>
+              <a href="nonveg.html">Non veg</a>
+              <a href="dessart.html">Desserts</a>
+              <!-- Add more categories as needed -->
+          </div>
+          </div>
+          <div class="dropdown">   
+            <a href="#quick">Quick and Easy</a>
+            <div class="dropdown-content">
+                <a href="breakfast.html">Breakfast</a>
+                <a href="Lunch.html">Lunch</a>
+                <a href="dinner.html">Dinner</a>
+                <!-- Add more categories as needed -->
+            </div>
+            </div>
+        <a href="brp.html">About</a>
+        
+    </nav>
+
+ 
+</header>
+<div class="container">
+<!-- Gulab Jamun -->
+<div class="recipe-card">
+    <img src="Google Images.jpg" alt="Gulab Jamun">
+    <h2 class="recipe-title">Gulab Jamun</h2>
+    <p class="recipe-description">Soft and spongy milk solids dumplings soaked in sugar syrup.</p>
+    <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 30 minutes | Total Time: 45 minutes</p><br>
+    <p class="recipe-info">Makes: 20 pieces</p>
+    <button class="recipe-button" onclick="showRecipe('gulab_jamun_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="gulab_jamun_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>1 cup milk powder</li>
+      <li>1/4 cup all-purpose flour</li>
+      <li>1/4 teaspoon baking soda</li>
+      <li>2 tablespoons ghee or unsalted butter, melted</li>
+      <li>1/4 cup milk, or as needed to knead the dough</li>
+      <li>1 cup sugar</li>
+      <li>1 cup water</li>
+      <li>4-5 cardamom pods, crushed</li>
+      <li>A few saffron strands (optional)</li>
+      <li>Oil for deep frying</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>In a mixing bowl, combine milk powder, all-purpose flour, and baking soda.</li>
+      <li>Add melted ghee or butter and mix well.</li>
+      <li>Add milk gradually and knead into a smooth dough. Cover and let it rest for 10-15 minutes.</li>
+      <li>In a saucepan, combine sugar, water, crushed cardamom pods, and saffron strands (if using). Bring to a boil and simmer for 5-7 minutes to make sugar syrup. Keep it warm.</li>
+      <li>Divide the dough into small equal-sized portions and shape them into smooth balls without any cracks.</li>
+      <li>Heat oil in a deep frying pan over medium heat. Once the oil is hot, reduce the heat to low and carefully add the dough balls one by one.</li>
+      <li>Fry the balls on low heat, stirring occasionally, until they turn golden brown and evenly cooked from all sides.</li>
+      <li>Remove the fried balls using a slotted spoon and drain excess oil on a paper towel.</li>
+      <li>Transfer the fried balls into the warm sugar syrup and let them soak for at least 2-3 hours before serving.</li>
+      <li>Serve warm or chilled, garnished with chopped nuts if desired.</li>
+    </ol>
+  </div>
+  <!-- Pineapple Kichadi -->
+<div class="recipe-card">
+    <img src="PINEAPPLE PACHADI - KERALA STYLE.jpg" alt="Pineapple Kichadi">
+    <h2 class="recipe-title">Pineapple Kichadi</h2>
+    <p class="recipe-description">A refreshing South Indian side dish made with pineapple, yogurt, and coconut.</p>
+    <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 10 minutes | Total Time: 25 minutes</p><br>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('pineapple_kichadi_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="pineapple_kichadi_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>1 cup chopped pineapple</li>
+      <li>1 cup yogurt (preferably sour)</li>
+      <li>1/2 cup grated coconut</li>
+      <li>1 green chili, finely chopped</li>
+      <li>1/2 teaspoon mustard seeds</li>
+      <li>1/2 teaspoon cumin seeds</li>
+      <li>A pinch of asafoetida (hing)</li>
+      <li>A few curry leaves</li>
+      <li>2 tablespoons oil</li>
+      <li>Salt to taste</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>In a mixing bowl, whisk the yogurt until smooth. Add chopped pineapple and grated coconut. Mix well and set aside.</li>
+      <li>Heat oil in a pan. Add mustard seeds and let them splutter.</li>
+      <li>Add cumin seeds, asafoetida, chopped green chili, and curry leaves. Sauté for a minute.</li>
+      <li>Pour this tempering over the yogurt-pineapple mixture. Mix gently to combine.</li>
+      <li>Add salt to taste and mix well.</li>
+      <li>Refrigerate for 1-2 hours before serving to enhance the flavors.</li>
+      <li>Serve chilled as a side dish with rice or enjoy as a refreshing snack.</li>
+    </ol>
+  </div>
+  
+  
+  <!-- Rasmalai -->
+  <div class="recipe-card">
+    <img src="Bread Rasmalai Recipe-How To make Bread Rasmalai-Easy Dessert Recipes - Padhuskitchen.jpg" alt="Rasmalai">
+    <h2 class="recipe-title">Rasmalai</h2>
+    <p class="recipe-description">Soft, spongy cottage cheese dumplings soaked in sweetened, thickened milk flavored with cardamom and saffron.</p>
+    <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 30 minutes | Total Time: 50 minutes</p>
+    <p class="recipe-info">Makes: 10 pieces</p>
+    <button class="recipe-button" onclick="showRecipe('rasmalai_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="rasmalai_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>1 liter whole milk</li>
+      <li>1/4 cup lemon juice or vinegar</li>
+      <li>1 cup sugar</li>
+      <li>4 cups water</li>
+      <li>4-5 cardamom pods, crushed</li>
+      <li>A few saffron strands</li>
+      <li>2 tablespoons chopped nuts (almonds, pistachios) for garnish</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Boil the milk in a heavy-bottomed pan over medium heat. Once it comes to a boil, reduce the heat and add lemon juice or vinegar gradually while stirring continuously until the milk curdles.</li>
+      <li>Once the milk curdles completely, switch off the heat and let it rest for a few minutes.</li>
+      <li>Strain the curdled milk using a muslin cloth or a fine mesh strainer. Rinse the chenna (strained milk solids) under cold water to remove the lemony flavor.</li>
+      <li>Squeeze out excess water from the chenna and hang it for about 30 minutes to drain excess moisture.</li>
+      <li>Transfer the drained chenna to a plate and knead it for 8-10 minutes until it becomes smooth and soft. Divide the dough into small equal-sized portions and shape them into smooth balls without any cracks.</li>
+      <li>In a wide pan, combine sugar, water, crushed cardamom pods, and saffron strands. Bring to a boil and simmer for 5-7 minutes to make sugar syrup.</li>
+      <li>Gently drop the chenna balls into the simmering syrup. Cover and cook for about 15-20 minutes until the balls double in size and become spongy.</li>
+      <li>Remove the cooked balls from the syrup and let them cool slightly.</li>
+      <li>Transfer the balls to a serving dish and pour the thickened, sweetened milk over them.</li>
+      <li>Chill the rasmalai for a few hours before serving. Garnish with chopped nuts before serving.</li>
+    </ol>
+  </div>
+<!-- Mango Lassi -->
+<div class="recipe-card">
+    <img src="Mango Lassi.jpg" alt="Mango Lassi">
+    <h2 class="recipe-title">Mango Lassi</h2>
+    <p class="recipe-description">A refreshing and creamy yogurt-based drink flavored with sweet mango pulp.</p>
+    <p class="recipe-info">Preparation Time: 5 minutes | Total Time: 5 minutes</p>
+    <p class="recipe-info">Serves: 2</p>
+    <button class="recipe-button" onclick="showRecipe('mango_lassi_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="mango_lassi_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>1 cup ripe mango pulp</li>
+      <li>1 cup plain yogurt</li>
+      <li>1/2 cup cold milk</li>
+      <li>2-3 tablespoons sugar or honey (adjust to taste)</li>
+      <li>1/4 teaspoon ground cardamom (optional)</li>
+      <li>A few ice cubes (optional)</li>
+      <li>Chopped pistachios or mint leaves for garnish</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>In a blender, combine mango pulp, plain yogurt, cold milk, sugar or honey, and ground cardamom.</li>
+      <li>Blend until smooth and creamy.</li>
+      <li>If desired, add a few ice cubes and blend again until frothy.</li>
+      <li>Pour the mango lassi into serving glasses.</li>
+      <li>Garnish with chopped pistachios or mint leaves.</li>
+      <li>Serve chilled and enjoy!</li>
+    </ol>
+  </div>
+  
+  <!-- Rasgulla -->
+  <div class="recipe-card">
+    <img src="Rasgullas Indian Dessert Recipe.jpg" alt="Rasgulla">
+    <h2 class="recipe-title">Rasgulla</h2>
+    <p class="recipe-description">Soft and spongy cottage cheese balls cooked in sugar syrup.</p>
+    <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 30 minutes | Total Time: 50 minutes</p>
+    <p class="recipe-info">Makes: 12 pieces</p>
+    <button class="recipe-button" onclick="showRecipe('rasgulla_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="rasgulla_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>1 liter full-fat milk</li>
+      <li>1 tablespoon lemon juice or vinegar</li>
+      <li>1 cup sugar</li>
+      <li>4 cups water</li>
+      <li>2-3 cardamom pods, crushed</li>
+      <li>A few saffron strands (optional)</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>In a large pan, bring the milk to a boil over medium heat.</li>
+      <li>Once the milk comes to a boil, reduce the heat and add lemon juice or vinegar gradually while stirring continuously until the milk curdles.</li>
+      <li>Switch off the heat and let it rest for a few minutes.</li>
+      <li>Strain the curdled milk using a muslin cloth or a fine mesh strainer. Rinse the chenna (strained milk solids) under cold water to remove the lemony flavor.</li>
+      <li>Squeeze out excess water from the chenna and hang it for about 30 minutes to drain excess moisture.</li>
+      <li>Transfer the drained chenna to a plate and knead it for 8-10 minutes until it becomes smooth and soft.</li>
+      <li>Divide the dough into small equal-sized portions and shape them into smooth balls without any cracks.</li>
+      <li>In a separate pot, combine sugar, water, crushed cardamom pods, and saffron strands (if using). Bring to a boil to make sugar syrup.</li>
+      <li>Gently drop the chenna balls into the boiling syrup. Cover and cook for about 15-20 minutes until the balls double in size and become spongy.</li>
+      <li>Remove the cooked rasgullas from the syrup and let them cool down.</li>
+      <li>Refrigerate for a few hours before serving. Serve chilled.</li>
+    </ol>
+  </div>
+  
+  <!-- Kulfi -->
+  <div class="recipe-card">
+    <img src="Holi 2023_ How to make street-style Kulfi this Holi.jpg" alt="Kulfi">
+    <h2 class="recipe-title">Kulfi</h2>
+    <p class="recipe-description">Creamy and rich Indian ice cream flavored with saffron, cardamom, and nuts.</p>
+    <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 30 minutes | Total Time: 45 minutes</p>
+    <p class="recipe-info">Makes: 6 servings</p>
+    <button class="recipe-button" onclick="showRecipe('kulfi_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="kulfi_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>2 cups full-fat milk</li>
+      <li>1/2 cup sweetened condensed milk</li>
+      <li>1/4 cup milk powder</li>
+      <li>1/4 cup sugar (adjust to taste)</li>
+      <li>1/4 teaspoon cardamom powder</li>
+      <li>A pinch of saffron strands</li>
+      <li>2 tablespoons chopped nuts (pistachios, almonds)</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>In a heavy-bottomed pan, bring the milk to a boil over medium heat.</li>
+      <li>Once the milk starts boiling, reduce the heat and add sweetened condensed milk, milk powder, and sugar. Mix well.</li>
+      <li>Simmer the mixture on low heat, stirring continuously, until it thickens and reduces to half its original volume.</li>
+      <li>Add cardamom powder, saffron strands, and chopped nuts. Mix well and cook for another 2-3 minutes.</li>
+      <li>Remove the pan from heat and let the mixture cool down to room temperature.</li>
+      <li>Pour the mixture into kulfi molds or small serving cups. Insert wooden sticks into the center of each kulfi.</li>
+      <li>Freeze the kulfi molds or cups for at least 6-8 hours or overnight until they are set completely.</li>
+      <li>To unmold the kulfi, dip the molds briefly in warm water and gently pull out the kulfi sticks.</li>
+      <li>Serve the kulfi immediately. Enjoy!</li>
+    </ol>
+  </div>
+  
+  <!-- Jalebi -->
+  <div class="recipe-card">
+    <img src="Jalebi Recipe (With Yeast).jpg" alt="Jalebi">
+    <h2 class="recipe-title">Jalebi</h2>
+    <p class="recipe-description">Crispy and syrupy Indian sweet made from fermented flour batter.</p>
+    <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 30 minutes | Total Time: 45 minutes</p><br>
+    <p class="recipe-info">Makes: 20 pieces</p>
+    <button class="recipe-button" onclick="showRecipe('jalebi_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="jalebi_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>1 cup all-purpose flour</li>
+      <li>1 tablespoon gram flour (besan)</li>
+      <li>1/2 cup yogurt</li>
+      <li>1/4 teaspoon baking soda</li>
+      <li>1/4 teaspoon turmeric powder (for color)</li>
+      <li>1 cup sugar</li>
+      <li>1/2 cup water</li>
+      <li>1/4 teaspoon cardamom powder</li>
+      <li>A few saffron strands (optional)</li>
+      <li>Oil for deep frying</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>In a mixing bowl, combine all-purpose flour, gram flour, yogurt, baking soda, and turmeric powder.</li>
+      <li>Gradually add water and mix to form a smooth, lump-free batter. The consistency should be similar to pancake batter.</li>
+      <li>Cover the batter and let it ferment overnight or for at least 8 hours.</li>
+      <li>In a saucepan, combine sugar, water, cardamom powder, and saffron strands (if using). Bring to a boil and simmer for 8-10 minutes to make sugar syrup. Keep it warm.</li>
+      <li>Heat oil in a deep frying pan over medium heat.</li>
+      <li>Transfer the fermented batter to a squeeze bottle or a piping bag with a small nozzle.</li>
+      <li>Squeeze the batter into hot oil in circular motions to form spirals or pretzel shapes.</li>
+      <li>Fry the jalebis until they are crisp and golden brown on both sides.</li>
+      <li>Remove the fried jalebis using a slotted spoon and immediately dip them into the warm sugar syrup.</li>
+      <li>Let the jalebis soak in the syrup for a few seconds, then remove and place them on a serving plate.</li>
+      <li>Serve the jalebis warm or at room temperature. Enjoy!</li>
+    </ol>
+  </div>
+
+<!-- Shahi Tukda -->
+<div class="recipe-card">
+    <img src="Thandai Shahi Tukda.jpg" alt="Shahi Tukda">
+    <h2 class="recipe-title">Shahi Tukda</h2>
+    <p class="recipe-description">Rich and indulgent bread pudding soaked in flavored sugar syrup and topped with nuts.</p>
+    <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 30 minutes | Total Time: 45 minutes</p><br>
+    <p class="recipe-info">Serves: 4</p>
+    <button class="recipe-button" onclick="showRecipe('shahi_tukda_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="shahi_tukda_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>4 slices of bread</li>
+      <li>2 cups whole milk</li>
+      <li>1/2 cup sugar</li>
+      <li>2-3 cardamom pods, crushed</li>
+      <li>A few saffron strands</li>
+      <li>2 tablespoons ghee (clarified butter)</li>
+      <li>Chopped nuts (almonds, pistachios) for garnish</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>Cut the bread slices into triangles or squares.</li>
+      <li>Heat ghee in a pan and lightly fry the bread slices until golden brown on both sides. Drain excess ghee and set aside.</li>
+      <li>In another pan, bring whole milk to a boil. Add crushed cardamom pods and saffron strands.</li>
+      <li>Reduce the heat and simmer the milk until it reduces to half its original quantity, stirring occasionally.</li>
+      <li>Add sugar to the milk and stir until it dissolves completely.</li>
+      <li>Place the fried bread slices in a serving dish and pour the reduced milk over them, ensuring all slices are soaked well.</li>
+      <li>Let the shahi tukda rest for at least 30 minutes to allow the bread to absorb the milk.</li>
+      <li>Garnish with chopped nuts before serving. Serve warm or chilled, as desired.</li>
+    </ol>
+  </div>
+  
+  <!-- Rabri -->
+  <div class="recipe-card">
+    <img src="Rabri Recipe (Rabdi) - Swasthi's Recipes.jpg" alt="Rabri">
+    <h2 class="recipe-title">Rabri</h2>
+    <p class="recipe-description">Creamy and rich Indian dessert made by reducing milk with sugar and flavored with cardamom and saffron.</p>
+    <p class="recipe-info">Preparation Time: 10 minutes | Cook Time: 1 hour | Total Time: 1 hour 10 minutes</p>
+    <p class="recipe-info">Serves: 6</p>
+    <button class="recipe-button" onclick="showRecipe('rabri_recipe')">Get Recipe</button>
+  </div>
+  
+  <div id="rabri_recipe" class="recipe-details" style="display: none;">
+    <h3>Ingredients:</h3>
+    <ul class="ingredient-list">
+      <li>1 liter whole milk</li>
+      <li>1/2 cup sugar</li>
+      <li>1/2 teaspoon cardamom powder</li>
+      <li>A few saffron strands</li>
+      <li>Chopped nuts (almonds, pistachios) for garnish</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <ol class="instruction-list">
+      <li>In a wide heavy-bottomed pan, bring the whole milk to a boil over medium heat.</li>
+      <li>Once the milk comes to a boil, reduce the heat to low and let it simmer.</li>
+      <li>Keep stirring the milk at regular intervals and scrape the cream collected on the sides of the pan.</li>
+      <li>After simmering for about 30 minutes, add sugar, cardamom powder, and saffron strands to the milk.</li>
+      <li>Continue to simmer the milk until it reduces to about one-third of its original volume and becomes thick and creamy.</li>
+      <li>Turn off the heat and let the rabri cool down to room temperature.</li>
+      <li>Transfer the rabri to a serving bowl and garnish with chopped nuts.</li>
+      <li>Serve chilled or at room temperature. Enjoy the rich and creamy rabri!</li>
+    </ol>
+  </div>    
+</div>
+<div class="container text-center">
+    <div class="pagination justify-content-center">
+      <div class="pagination-container"></div>
+      <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="recipe.html"class="active" >1</a>
+        <a href="recipe2.html" >2</a>
+        <a href="recipe3.html">3</a>
+        <a href="recipe4.html">4</a>
+        
+        
+        <a href="#">&raquo;</a>
+      </div>
+    </div>
+  </div>
+  
+  <script src="recipe.js"> </script>
+  
+  </body>
+  </html>

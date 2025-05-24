@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Cards - Page 2</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="home.css">
+  <link href="recipe.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logocontent">
+        <a href="#"class="logo"><img src="logo1.jpg" alt="logo" ></a>
+        <h1 class="logoname">Bachelors Kitchen</h1>
+    </div>
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="recipe.html">Top Dishes</a>
+        <div class="dropdown">
+          <a href="">Category</a> 
+          <div class="dropdown-content">
+              <a href="veg.html">Veg</a>
+              <a href="nonveg.html">Non veg</a>
+              <a href="dessart.html">Desserts</a>
+              <!-- Add more categories as needed -->
+          </div>
+          </div>
+          <div class="dropdown">   
+            <a href="#quick">Quick and Easy</a>
+            <div class="dropdown-content">
+                <a href="breakfast.html">Breakfast</a>
+                <a href="Lunch.html">Lunch</a>
+                <a href="dinner.html">Dinner</a>
+                <!-- Add more categories as needed -->
+            </div>
+            </div>
+        <a href="brp.html">About</a>
+        
+    </nav>
+
+    
+</header>
+  
+  
+
+  <div class="container">
+
+    <div class="recipe-card">
+      <img src="Pesarattu.jpg" alt="Pesarattu">
+      <h2 class="recipe-title">Pesarattu</h2>
+      <p class="recipe-description">A crepe-like dish made from green gram (moong dal) and rice batter, typically served with ginger chutney or upma.</p>
+      <p class="recipe-info">Prep Time: 6-8 hours | Cook Time: 15 minutes | Total Time: 8 hours 15 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('recipe-details11')">Get Recipe</button>
+    </div>
+
+    <div id="recipe-details11" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 cup whole green gram (moong dal)</li>
+        <li>1/4 cup rice</li>
+        <li>2-3 green chilies</li>
+        <li>1-inch ginger</li>
+        <li>A handful of fresh coriander leaves</li>
+        <li>Salt to taste</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Wash and soak whole green gram and rice together for 6-8 hours.</li>
+        <li>Grind the soaked ingredients along with green chilies, ginger, and coriander leaves into a smooth batter. Add salt and mix well.</li>
+        <li>Heat a non-stick skillet or griddle. Pour a ladleful of batter and spread it in a circular motion to form a thin crepe.</li>
+        <li>Drizzle some oil around the edges and cook until the pesarattu turns golden brown and crisp.</li>
+        <li>Serve hot with ginger chutney or upma.</li>
+      </ol>
+    </div>
+    
+    <div class="recipe-card">
+      <img src="chettinad.jpg" alt="Chettinad Chicken Curry">
+      <h2 class="recipe-title">Chettinad Chicken Curry</h2>
+      <p class="recipe-description">A spicy and aromatic South Indian chicken curry flavored with traditional Chettinad spices.</p>
+      <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 40 minutes | Total Time: 55 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('chettinad_chicken')">Get Recipe</button>
+    </div>
+    
+    <div id="chettinad_chicken" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>500g chicken, cut into pieces</li>
+        <li>2 onions, finely chopped</li>
+        <li>3 tomatoes, chopped</li>
+        <li>2 tablespoons ginger-garlic paste</li>
+        <li>2 green chilies, slit</li>
+        <li>1 sprig curry leaves</li>
+        <li>1 teaspoon mustard seeds</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>1 tablespoon coriander powder</li>
+        <li>1 tablespoon red chili powder</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1/2 teaspoon garam masala</li>
+        <li>1/2 cup grated coconut</li>
+        <li>1/4 cup cashew nuts</li>
+        <li>2 tablespoons poppy seeds</li>
+        <li>1 tablespoon fennel seeds</li>
+        <li>1/4 cup chopped cilantro (coriander leaves) for garnish</li>
+        <li>Salt to taste</li>
+        <li>3 tablespoons oil</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Grind grated coconut, cashew nuts, poppy seeds, and fennel seeds into a fine paste with some water. Set aside.</li>
+        <li>Heat oil in a pan. Add mustard seeds and cumin seeds. Let them splutter.</li>
+        <li>Add chopped onions, green chilies, and curry leaves. Sauté until onions turn golden brown.</li>
+        <li>Add ginger-garlic paste and sauté until the raw smell disappears.</li>
+        <li>Add chopped tomatoes and cook until they turn mushy.</li>
+        <li>Add coriander powder, red chili powder, turmeric powder, and garam masala. Mix well and cook for a couple of minutes.</li>
+        <li>Add chicken pieces and salt. Cook until the chicken is browned.</li>
+        <li>Add the ground coconut paste and mix well. Add water if needed to adjust the consistency of the curry.</li>
+        <li>Cover and cook on low heat for 20-25 minutes or until the chicken is tender and the curry has thickened.</li>
+        <li>Garnish with chopped cilantro and serve hot with rice or roti.</li>
+      </ol>
+    </div>
+    
+
+    <div class="recipe-card">
+      <img src="aviyal.jpg" alt="Aviyal">
+      <h2 class="recipe-title">Aviyal</h2>
+      <p class="recipe-description">A traditional South Indian mixed vegetable curry cooked in a coconut and yogurt-based gravy.</p>
+      <p class="recipe-info">Prep Time: 15 minutes | Cook Time: 20 minutes | Total Time: 35 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('aviyal_recipe')">Get Recipe</button>
+    </div>
+
+    <div id="aviyal_recipe" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 cup mixed vegetables (carrot, beans, potato, drumstick, pumpkin, ash gourd, etc.), chopped</li>
+        <li>1 cup thick yogurt</li>
+        <li>1/2 cup grated coconut</li>
+        <li>2 green chilies</li>
+        <li>1/2 teaspoon cumin seeds</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>A few curry leaves</li>
+        <li>1 tablespoon coconut oil</li>
+        <li>1/2 teaspoon mustard seeds</li>
+        <li>2-3 dried red chilies</li>
+        <li>Salt to taste</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Grind grated coconut, green chilies, and cumin seeds into a fine paste. Set aside.</li>
+        <li>Cook the mixed vegetables with turmeric powder and salt until they are tender but still retain their shape. Drain excess water and set aside.</li>
+        <li>In a pan, heat coconut oil. Add mustard seeds and let them splutter. Add dried red chilies and curry leaves.</li>
+        <li>Add the cooked vegetables to the pan and mix well.</li>
+        <li>Add the coconut paste to the vegetables and mix until well combined.</li>
+        <li>Turn off the heat and gradually add thick yogurt while stirring continuously to prevent curdling.</li>
+        <li>Adjust salt if needed and serve hot with rice.</li>
+      </ol>
+    </div>
+    <div class="recipe-card">
+      <img src="Kori Gassi.jpg" alt="Kori Gassi">
+      <h2 class="recipe-title">Kori Gassi (Mangalorean Chicken Curry)</h2>
+      <p class="recipe-description">A rich and spicy chicken curry from the Mangalorean cuisine, known for its vibrant flavors and coconut-based gravy.</p>
+      <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 40 minutes | Total Time: 55 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('kori_gassi')">Get Recipe</button>
+    </div>
+    
+    <div id="kori_gassi" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>500g chicken, cut into pieces</li>
+        <li>2 onions, finely chopped</li>
+        <li>3 tomatoes, chopped</li>
+        <li>2 tablespoons ginger-garlic paste</li>
+        <li>2 green chilies, slit</li>
+        <li>1 sprig curry leaves</li>
+        <li>1 teaspoon mustard seeds</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>1 tablespoon coriander powder</li>
+        <li>1 tablespoon red chili powder</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1/2 teaspoon garam masala</li>
+        <li>1 cup grated coconut</li>
+        <li>1 tablespoon tamarind pulp</li>
+        <li>1/4 cup cashew nuts</li>
+        <li>2 tablespoons poppy seeds</li>
+        <li>1 tablespoon fennel seeds</li>
+        <li>1/4 cup chopped cilantro (coriander leaves) for garnish</li>
+        <li>Salt to taste</li>
+        <li>3 tablespoons oil</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Grind grated coconut, cashew nuts, poppy seeds, and fennel seeds into a fine paste along with tamarind pulp and some water. Set aside.</li>
+        <li>Heat oil in a pan. Add mustard seeds and cumin seeds. Let them splutter.</li>
+        <li>Add chopped onions, green chilies, and curry leaves. Sauté until onions turn golden brown.</li>
+        <li>Add ginger-garlic paste and sauté until the raw smell disappears.</li>
+        <li>Add chopped tomatoes and cook until they turn mushy.</li>
+        <li>Add coriander powder, red chili powder, turmeric powder, and garam masala. Mix well and cook for a couple of minutes.</li>
+        <li>Add chicken pieces and salt. Cook until the chicken is browned.</li>
+        <li>Add the ground coconut paste and mix well. Add water if needed to adjust the consistency of the curry.</li>
+        <li>Cover and cook on low heat for 20-25 minutes or until the chicken is tender and the curry has thickened.</li>
+        <li>Garnish with chopped cilantro and serve hot with rice or roti.</li>
+      </ol>
+    </div>
+    <div class="recipe-card">
+      <img src="karimeen.jpg" alt="Karimeen Pollichathu">
+      <h2 class="recipe-title">Karimeen Pollichathu</h2>
+      <p class="recipe-description">A traditional Kerala delicacy made with pearl spot fish marinated in a blend of spices, wrapped in banana leaves, and cooked to perfection.</p>
+      <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 30 minutes | Total Time: 50 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('karimeen_pollichathu')">Get Recipe</button>
+    </div>
+    
+    <div id="karimeen_pollichathu" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>4 pearl spot fish (karimeen), cleaned and descaled</li>
+        <li>2 tablespoons red chili powder</li>
+        <li>1 tablespoon turmeric powder</li>
+        <li>1 tablespoon ginger-garlic paste</li>
+        <li>2 tablespoons lemon juice</li>
+        <li>Salt to taste</li>
+        <li>4 tablespoons coconut oil</li>
+        <li>2 onions, thinly sliced</li>
+        <li>2 tomatoes, thinly sliced</li>
+        <li>4 green chilies, slit</li>
+        <li>1 sprig curry leaves</li>
+        <li>4 banana leaves, cut into squares (for wrapping)</li>
+        <li>String or toothpicks (for securing banana leaves)</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Make deep gashes on both sides of the fish using a sharp knife.</li>
+        <li>In a bowl, mix red chili powder, turmeric powder, ginger-garlic paste, lemon juice, and salt to form a smooth paste.</li>
+        <li>Apply the prepared marinade generously over the fish, making sure to coat it well inside the gashes. Marinate for at least 30 minutes.</li>
+        <li>Heat coconut oil in a pan over medium heat. Add sliced onions, tomatoes, green chilies, and curry leaves. Sauté until the onions turn translucent.</li>
+        <li>Place each fish on a square of banana leaf. Top each fish with a portion of the sautéed onion-tomato mixture.</li>
+        <li>Wrap the banana leaves securely around each fish, folding and securing them with string or toothpicks.</li>
+        <li>Heat a flat griddle or tawa. Place the wrapped fish parcels on the griddle and cook on low heat for about 10-15 minutes on each side or until the fish is cooked through and the banana leaves char slightly.</li>
+        <li>Once cooked, carefully unwrap the banana leaves and serve hot with steamed rice or appam.</li>
+      </ol>
+    </div>
+    
+    
+
+    <div class="recipe-card">
+      <img src="mysure pak.jpg" alt="Mysore Pak">
+      <h2 class="recipe-title">Mysore Pak</h2>
+      <p class="recipe-description">A famous South Indian sweet made with gram flour, ghee, and sugar, known for its rich texture and melt-in-your-mouth goodness.</p>
+      <p class="recipe-info">Preparation Time: 10 minutes | Cook Time: 30 minutes | Total Time: 40 minutes</p>
+      <p class="recipe-info">Serves: 8</p>
+      <button class="recipe-button" onclick="showRecipe('mysore_pak')">Get Recipe</button>
+    </div>
+    
+    <div id="mysore_pak" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 cup gram flour (besan)</li>
+        <li>1 cup ghee</li>
+        <li>1 cup sugar</li>
+        <li>1/4 cup water</li>
+        <li>1/4 teaspoon cardamom powder</li>
+        <li>A pinch of edible camphor (optional)</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Grease a tray or plate with ghee and set aside.</li>
+        <li>Heat ghee in a heavy-bottomed pan over low heat.</li>
+        <li>Add gram flour (besan) to the pan and roast it on low heat until it turns aromatic and slightly changes color. Stir continuously to avoid burning.</li>
+        <li>In another pan, combine sugar and water. Cook over medium heat until the sugar dissolves completely and forms a thick syrup. To test the syrup consistency, take a drop between your thumb and index finger. It should form a soft ball when pressed.</li>
+        <li>Slowly add the sugar syrup to the roasted gram flour mixture, stirring continuously to avoid lumps.</li>
+        <li>Continue cooking the mixture on low heat, stirring constantly, until it thickens and starts leaving the sides of the pan. It will become frothy and start bubbling up.</li>
+        <li>Add cardamom powder and edible camphor (if using) and mix well.</li>
+        <li>Transfer the mixture to the greased tray or plate and spread it evenly using a spatula.</li>
+        <li>Allow it to cool for a few minutes, then cut it into square or diamond-shaped pieces using a knife.</li>
+        <li>Once completely cooled, remove the pieces from the tray and store them in an airtight container.</li>
+        <li>Mysore Pak is ready to be served and enjoyed as a delightful sweet treat!</li>
+      </ol>
+    </div>
+    <div class="recipe-card">
+      <img src="konkani.jpg" alt="Mangalorean Fish Curry">
+      <h2 class="recipe-title">Mangalorean Fish Curry</h2>
+      <p class="recipe-description">A tangy and spicy curry from the coastal region of Mangalore, made with fresh fish, coconut milk, and aromatic spices.</p>
+      <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 25 minutes | Total Time: 40 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('mangalorean_fish_curry')">Get Recipe</button>
+    </div>
+    
+    <div id="mangalorean_fish_curry" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>500g fish (preferably kingfish or pomfret), cut into pieces</li>
+        <li>1 onion, finely chopped</li>
+        <li>2 tomatoes, chopped</li>
+        <li>1 tablespoon ginger-garlic paste</li>
+        <li>2 green chilies, slit</li>
+        <li>1 sprig curry leaves</li>
+        <li>1 teaspoon mustard seeds</li>
+        <li>1/2 teaspoon fenugreek seeds</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1 tablespoon red chili powder</li>
+        <li>1 tablespoon coriander powder</li>
+        <li>1 cup thick coconut milk</li>
+        <li>2 tablespoons coconut oil</li>
+        <li>Salt to taste</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Heat coconut oil in a pan. Add mustard seeds and fenugreek seeds. Let them splutter.</li>
+        <li>Add chopped onions, green chilies, and curry leaves. Sauté until onions turn golden brown.</li>
+        <li>Add ginger-garlic paste and sauté until the raw smell disappears.</li>
+        <li>Add chopped tomatoes and cook until they turn mushy.</li>
+        <li>Add turmeric powder, red chili powder, and coriander powder. Mix well.</li>
+        <li>Add fish pieces and salt. Cook for 2-3 minutes.</li>
+        <li>Pour thick coconut milk and simmer for 10-15 minutes or until the fish is cooked through and the curry thickens.</li>
+        <li>Adjust the seasoning and consistency according to your preference.</li>
+        <li>Once done, garnish with curry leaves and serve hot with steamed rice or appam.</li>
+      </ol>
+    </div>
+    <div class="recipe-card">
+      <img src="coorg.jpg" alt="Coorg Pandi Curry">
+      <h2 class="recipe-title">Coorg Pandi Curry</h2>
+      <p class="recipe-description">A traditional pork curry from the Coorg region of Karnataka, known for its rich and spicy flavors.</p>
+      <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 1 hour | Total Time: 1 hour 20 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('coorg_pandi_curry')">Get Recipe</button>
+    </div>
+    <div class="recipe-card">
+      <img src="bis.jpg" alt="Bisi Bele Bath">
+      <h2 class="recipe-title">Bisi Bele Bath</h2>
+      <p class="recipe-description">A flavorful one-pot meal from Karnataka, made with rice, lentils, mixed vegetables, and aromatic spices.</p>
+      <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 40 minutes | Total Time: 1 hour</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('bisi_bele')">Get Recipe</button>
+    </div>
+
+    <div id="bisi_bele" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 cup rice</li>
+        <li>1/2 cup toor dal (pigeon peas)</li>
+        <li>2 tablespoons bisi bele bath powder</li>
+        <li>1 onion, chopped</li>
+        <li>1 tomato, chopped</li>
+        <li>1 cup mixed vegetables (carrots, beans, peas)</li>
+        <li>2 tablespoons tamarind extract</li>
+        <li>1 teaspoon mustard seeds</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>1/4 teaspoon asafoetida (hing)</li>
+        <li>2 tablespoons ghee</li>
+        <li>Salt to taste</li>
+        <li>Coriander leaves for garnish</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Pressure cook rice and toor dal with enough water until soft.</li>
+        <li>In a large pan, heat ghee and add mustard seeds. Once they splutter, add cumin seeds and asafoetida.</li>
+        <li>Add chopped onions and sauté until translucent.</li>
+        <li>Add chopped tomatoes and cook until they turn soft.</li>
+        <li>Add mixed vegetables, bisi bele bath powder, tamarind extract, and salt. Mix well.</li>
+        <li>Add cooked rice and dal mixture to the pan. Mix everything together gently.</li>
+        <li>Simmer for 10-15 minutes until the flavors meld together and the mixture thickens slightly.</li>
+        <li>Garnish with coriander leaves and serve hot with a dollop of ghee on top.</li>
+      </ol>
+    </div>
+    
+    <div id="coorg_pandi_curry" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>500g pork, preferably with fat, cut into bite-sized pieces</li>
+        <li>2 onions, finely chopped</li>
+        <li>2 tomatoes, chopped</li>
+        <li>1 tablespoon ginger-garlic paste</li>
+        <li>2-3 green chilies, slit</li>
+        <li>1 sprig curry leaves</li>
+        <li>1 teaspoon mustard seeds</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>2 tablespoons coriander powder</li>
+        <li>1 tablespoon red chili powder</li>
+        <li>1 tablespoon vinegar</li>
+        <li>Salt to taste</li>
+        <li>2 tablespoons oil</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Heat oil in a pan. Add mustard seeds and cumin seeds. Let them splutter.</li>
+        <li>Add chopped onions, green chilies, and curry leaves. Sauté until onions turn golden brown.</li>
+        <li>Add ginger-garlic paste and sauté until the raw smell disappears.</li>
+        <li>Add chopped tomatoes and cook until they turn mushy.</li>
+        <li>Add turmeric powder, coriander powder, red chili powder, vinegar, and salt. Mix well.</li>
+        <li>Add pork pieces and coat them well with the masala.</li>
+        <li>Cover and cook on low heat for about 45-50 minutes or until the pork is tender and cooked through.</li>
+        <li>Adjust the seasoning according to your taste preferences.</li>
+        <li>Once done, garnish with fresh coriander leaves and serve hot with steamed rice or akki roti.</li>
+      </ol>
+    </div>
+    
+    <!-- Add remaining recipe cards similar to the ones above -->
+
+  </div>
+  <div class="container text-center">
+    <div class="pagination justify-content-center">
+      <div class="pagination-container"></div>
+      <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="recipe.html" >1</a>
+        <a href="recipe2.html" class="active">2</a>
+        <a href="recipe3.html">3</a>
+        <a href="recipe4.html">4</a>
+        <a href="#">5</a>
+        <a href="#">&raquo;</a>
+      </div>
+    </div>
+  </div>
+  
+  <script src="recipe.js"> </script>
+
+</body>
+</html>

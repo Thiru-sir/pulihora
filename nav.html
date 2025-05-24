@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bisi Bele Bath Recipe</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  
+  <!-- Navbar with Offcanvas -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Recipe Book</a>
+      <button class="navbar-toggler" type="button" data-toggle="offcanvas" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse offcanvas-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="recipe-card">
+      <img src="bisi_bele_bath.jpg" alt="Bisi Bele Bath">
+      <h2 class="recipe-title">Bisi Bele Bath</h2>
+      <p class="recipe-description">A flavorful one-pot meal from Karnataka, made with rice, lentils, mixed vegetables, and aromatic spices.</p>
+      <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 40 minutes | Total Time: 1 hour</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('bisi_bele')">Get Recipe</button>
+    </div>
+
+    <div id="bisi_bele" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 cup rice</li>
+        <li>1/2 cup toor dal (pigeon peas)</li>
+        <li>2 tablespoons bisi bele bath powder</li>
+        <li>1 onion, chopped</li>
+        <li>1 tomato, chopped</li>
+        <li>1 cup mixed vegetables (carrots, beans, peas)</li>
+        <li>2 tablespoons tamarind extract</li>
+        <li>1 teaspoon mustard seeds</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>1/4 teaspoon asafoetida (hing)</li>
+        <li>2 tablespoons ghee</li>
+        <li>Salt to taste</li>
+        <li>Coriander leaves for garnish</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Pressure cook rice and toor dal with enough water until soft.</li>
+        <li>In a large pan, heat ghee and add mustard seeds. Once they splutter, add cumin seeds and asafoetida.</li>
+        <li>Add chopped onions and sauté until translucent.</li>
+        <li>Add chopped tomatoes and cook until they turn soft.</li>
+        <li>Add mixed vegetables, bisi bele bath powder, tamarind extract, and salt. Mix well.</li>
+        <li>Add cooked rice and dal mixture to the pan. Mix everything together gently.</li>
+        <li>Simmer for 10-15 minutes until the flavors meld together and the mixture thickens slightly.</li>
+        <li>Garnish with coriander leaves and serve hot with a dollop of ghee on top.</li>
+      </ol>
+    </div>
+  </div>
+
+  <script src="recipe.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

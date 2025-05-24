@@ -1,0 +1,9 @@
+  
+CREATE TABLE department9(dno varchar2(20) PRIMARY KEY,dname varchar2(20),mgr varchar2(20),startdate date);
+
+CREATE TABLE employee (ssn varchar(20) PRIMARY KEY,Fname varchar(20),Lname varchar(20),address varchar(20),gender char(1),
+salary integer,superssn varchar(20) REFERENCES employee(ssn),dno varchar(20) REFERENCES department9(dno));
+
+CREATE TABLE Dlocation (Dloc varchar2(20),dno varchar2(20),FOREIGN KEY (dno) REFERENCES department(dno)
+,PRIMARY KEY (dno, Dloc));
+

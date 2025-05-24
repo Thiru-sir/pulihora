@@ -1,0 +1,65 @@
+/* Navbar styles */
+.navbar {
+    background-color:white; /* Background color */
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.navbar a {
+    float: left; /* Float the links to the left */
+    display: block; /* Make links block-level for better spacing */
+    color: black; /* Text color */
+    text-align: center; /* Center-align text */
+    padding: 14px 20px; /* Padding around the text */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Background color on hover */
+    color: black; /* Text color on hover */
+}
+
+/* Active link style */
+.navbar a.active {
+    background-color: #4CAF50; /* Active link background color */
+    color: white; /* Active link text color */
+}
+
+/* Icon styles */
+.icon {
+    display: none; /* Hide icons by default */
+}
+
+/* Search box styles */
+.search {
+    display: none; /* Hide search box by default */
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar a:not(:first-child) {
+        display: none; /* Hide links except the first one on smaller screens */
+    }
+    
+    .navbar a.icon {
+        float: right; /* Float the icon to the right */
+        display: block; /* Display the icon as a block */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar.responsive {
+        position: relative; /* Adjust position for responsive navbar */
+    }
+    
+    .navbar.responsive .icon {
+        position: absolute; /* Position the icon absolutely */
+        right: 0; /* Align the icon to the right */
+        top: 0; /* Align the icon to the top */
+    }
+    
+    .navbar.responsive a {
+        float: none; /* Remove floating for links */
+        display: block; /* Display links as block */
+        text-align: left; /* Align text to the left */
+    }
+}

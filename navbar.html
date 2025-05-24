@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Cards - Page 2</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="recipe.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo1.jpg" alt="Logo" height="30">
+        Recipe Cards
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recipes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Menu
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Menu Item 1</a>
+              <a class="dropdown-item" href="#">Menu Item 2</a>
+              <a class="dropdown-item" href="#">Menu Item 3</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="brp.html">About</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <div class="input-group">
+            <input id="searchInput" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+              <span class="input-group-text search-icon" onclick="searchRecipe()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M10.78 9.385a5.5 5.5 0 1 0-1.395 1.395l3.704 3.704a1 1 0 0 0 1.414-1.414l-3.703-3.705zm-.293 1.768a4 4 0 1 1 5.656-5.656 4 4 0 0 1-5.656 5.656z"/>
+                </span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Rest of your HTML content -->
+</body>
+</html>

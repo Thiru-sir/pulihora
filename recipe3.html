@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Cards - Page 3</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="home.css">
+  <link href="recipe.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logocontent">
+        <a href="#"class="logo"><img src="logo1.jpg" alt="logo" ></a>
+        <h1 class="logoname">Bachelors Kitchen</h1>
+    </div>
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="recipe.html">Top Dishes</a>
+        <div class="dropdown">
+          <a href="">Category</a> 
+          <div class="dropdown-content">
+              <a href="veg.html">Veg</a>
+              <a href="nonveg.html">Non veg</a>
+              <a href="dessart.html">Desserts</a>
+              <!-- Add more categories as needed -->
+          </div>
+          </div>
+          <div class="dropdown">   
+            <a href="#quick">Quick and Easy</a>
+            <div class="dropdown-content">
+                <a href="breakfast.html">Breakfast</a>
+                <a href="Lunch.html">Lunch</a>
+                <a href="dinner.html">Dinner</a>
+                <!-- Add more categories as needed -->
+            </div>
+            </div>
+        <a href="brp.html">About</a>
+        
+    </nav>
+
+  
+</header>
+  
+  <div class="container">
+
+    <div class="recipe-card">
+      <img src="masala dosa.jpg" alt="Masala Dosa">
+      <h2 class="recipe-title">Masala Dosa</h2>
+      <p class="recipe-description">A popular South Indian dish consisting of a thin, crispy pancake filled with a spicy potato filling.</p>
+      <p class="recipe-info">Prep Time: 8 hours | Cook Time: 30 minutes | Total Time: 8 hours 30 minutes</p><br>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('masala_dosa')">Get Recipe</button>
+    </div>
+
+    <div id="masala_dosa" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>2 cups dosa rice</li>
+        <li>1/2 cup urad dal (black gram lentils)</li>
+        <li>1/4 cup chana dal (split chickpeas)</li>
+        <li>1/2 teaspoon fenugreek seeds</li>
+        <li>Salt to taste</li>
+        <li>2 large potatoes, boiled and mashed</li>
+        <li>1 onion, finely chopped</li>
+        <li>2 green chilies, finely chopped</li>
+        <li>1/2 teaspoon mustard seeds</li>
+        <li>1/2 teaspoon cumin seeds</li>
+        <li>1/4 teaspoon turmeric powder</li>
+        <li>A pinch of asafoetida (hing)</li>
+        <li>A handful of fresh coriander leaves, chopped</li>
+        <li>Oil for cooking</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Wash and soak dosa rice, urad dal, chana dal, and fenugreek seeds together for 6-8 hours.</li>
+        <li>Grind the soaked ingredients into a smooth batter using a wet grinder or blender. Add salt and mix well. Ferment the batter overnight or for at least 8 hours.</li>
+        <li>For the potato filling, heat oil in a pan. Add mustard seeds and cumin seeds. Let them splutter.</li>
+        <li>Add chopped onions and green chilies. Sauté until onions turn translucent.</li>
+        <li>Add turmeric powder and asafoetida. Mix well.</li>
+        <li>Add mashed potatoes and salt. Cook for 2-3 minutes.</li>
+        <li>Remove from heat and add chopped coriander leaves. Mix well and set aside.</li>
+        <li>To make dosas, heat a non-stick skillet or dosa tawa. Pour a ladleful of batter and spread it in a circular motion to form a thin dosa.</li>
+        <li>Drizzle some oil around the edges and cook until the dosa turns golden brown and crisp.</li>
+        <li>Place a portion of the potato filling in the center of the dosa and fold it over. Serve hot with coconut chutney and sambar.</li>
+      </ol>
+    </div>
+   
+    <div class="recipe-card">
+        <img src="neer dosa.jpg" alt="Neer Dosa">
+        <h2 class="recipe-title">Neer Dosa</h2>
+        <p class="recipe-description">Neer dosa is a traditional South Indian crepe made from rice batter. It is light, soft, and pairs well with various chutneys and curries.</p>
+        <p class="recipe-info">Prep Time: 5 minutes | Cook Time: 20 minutes | Total Time: 25 minutes</p>
+        <p class="recipe-info">Serves: 4</p>
+        <button class="recipe-button" onclick="showRecipe('neer_dosa_recipe')">Get Recipe</button>
+      </div>
+  
+      <div id="neer_dosa_recipe" class="recipe-details" style="display: none;">
+        <h3>Ingredients:</h3>
+        <ul class="ingredient-list">
+          <li>1 cup rice</li>
+          <li>Water (as needed)</li>
+          <li>Salt to taste</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <ol class="instruction-list">
+          <li>Wash the rice thoroughly and soak it in water for 4-5 hours or overnight.</li>
+          <li>Drain the soaked rice and transfer it to a blender. Add a little water and blend until you get a smooth batter with pouring consistency. The batter should be thinner than regular dosa batter.</li>
+          <li>Add salt to the batter and mix well.</li>
+          <li>Heat a non-stick skillet or dosa tawa over medium heat.</li>
+          <li>Pour a ladleful of batter onto the center of the skillet and quickly spread it in a circular motion to form a thin dosa.</li>
+          <li>Drizzle some oil around the edges of the dosa and cook until the edges start to lift and the surface of the dosa appears cooked.</li>
+          <li>Using a spatula, gently loosen the edges and fold the dosa into half or roll it if desired.</li>
+          <li>Repeat the process with the remaining batter.</li>
+          <li>Serve hot with coconut chutney, sambar, or any curry of your choice.</li>
+        </ol>
+      </div>
+      <div class="recipe-card">
+        <img src="beef fry.jpg" alt="Kerala Beef Fry">
+        <h2 class="recipe-title">Kerala Beef Fry</h2>
+        <p class="recipe-description">A delicious and spicy Kerala-style beef fry, perfect as a side dish or appetizer.</p>
+        <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 30 minutes | Total Time: 45 minutes</p><br><br><br>
+        <p class="recipe-info">Serves: 4</p>
+        <button class="recipe-button" onclick="showRecipe('kerala_beef_fry_recipe')">Get Recipe</button>
+      </div>
+  
+      <div id="kerala_beef_fry_recipe" class="recipe-details" style="display: none;">
+        <h3>Ingredients:</h3>
+        <ul class="ingredient-list">
+          <li>500g beef, thinly sliced</li>
+          <li>2 onions, thinly sliced</li>
+          <li>2 tomatoes, chopped</li>
+          <li>1 tablespoon ginger-garlic paste</li>
+          <li>2-3 green chilies, slit</li>
+          <li>1 sprig curry leaves</li>
+          <li>1 teaspoon mustard seeds</li>
+          <li>1 teaspoon cumin seeds</li>
+          <li>1 tablespoon coriander powder</li>
+          <li>1 tablespoon red chili powder</li>
+          <li>1/2 teaspoon turmeric powder</li>
+          <li>1/2 teaspoon garam masala</li>
+          <li>1/4 cup grated coconut</li>
+          <li>1/4 cup coconut oil</li>
+          <li>Salt to taste</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <ol class="instruction-list">
+          <li>Heat coconut oil in a pan. Add mustard seeds and cumin seeds. Let them splutter.</li>
+          <li>Add thinly sliced onions, green chilies, and curry leaves. Saute until onions turn golden brown.</li>
+          <li>Add ginger-garlic paste and saute until the raw smell disappears.</li>
+          <li>Add chopped tomatoes and cook until they turn mushy.</li>
+          <li>Add coriander powder, red chili powder, turmeric powder, and garam masala. Mix well and cook for a couple of minutes.</li>
+          <li>Add thinly sliced beef and salt. Cook until the beef is browned.</li>
+          <li>Add grated coconut and mix well. Cook for another 5-7 minutes until the beef is well coated with the masala and the coconut is toasted.</li>
+          <li>Adjust seasoning according to taste.</li>
+          <li>Once done, garnish with curry leaves and serve hot with rice or roti.</li>
+        </ol>
+      </div>
+      <div class="recipe-card">
+        <img src="goli baji.jpg" alt="Goli Baje">
+        <h2 class="recipe-title">Goli Baje (Mangalore Bajji)</h2>
+        <p class="recipe-description">Goli Baje, also known as Mangalore Bajji, is a popular South Indian snack made from a fermented batter of lentils and spices.</p>
+        <p class="recipe-info">Preparation Time: 10 minutes | Fermentation Time: 3-4 hours | Cook Time: 15 minutes | Total Time: 4 hours 25 minutes</p>
+        <p class="recipe-info">Serves: 4</p>
+        <button class="recipe-button" onclick="showRecipe('goli_baje_recipe')">Get Recipe</button>
+      </div>
+  
+      <div id="goli_baje_recipe" class="recipe-details" style="display: none;">
+        <h3>Ingredients:</h3>
+        <ul class="ingredient-list">
+          <li>1 cup urad dal (black gram lentils)</li>
+          <li>1/4 cup rice flour</li>
+          <li>1 teaspoon grated ginger</li>
+          <li>2-3 green chilies, finely chopped</li>
+          <li>1/2 teaspoon cumin seeds</li>
+          <li>1/4 teaspoon asafoetida (hing)</li>
+          <li>1 tablespoon chopped coriander leaves</li>
+          <li>Salt to taste</li>
+          <li>Oil for deep frying</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <ol class="instruction-list">
+          <li>Wash and soak urad dal in water for 3-4 hours. Drain well.</li>
+          <li>Grind the soaked urad dal into a smooth batter using minimal water.</li>
+          <li>Transfer the batter into a bowl and add rice flour, grated ginger, chopped green chilies, cumin seeds, asafoetida, chopped coriander leaves, and salt. Mix well to combine.</li>
+          <li>Allow the batter to ferment for 3-4 hours or until it becomes slightly fluffy.</li>
+          <li>Heat oil in a deep frying pan over medium heat.</li>
+          <li>Scoop small portions of the batter using a spoon and gently drop them into the hot oil.</li>
+          <li>Fry the goli bajje in batches until they turn golden brown and crisp.</li>
+          <li>Remove from oil using a slotted spoon and drain excess oil on a paper towel.</li>
+          <li>Serve hot with coconut chutney or sambar.</li>
+        </ol>
+      </div>
+      <div class="recipe-card">
+        <img src="udupi sambar.jpg" alt="Udupi Sambar">
+        <h2 class="recipe-title">Udupi Sambar</h2>
+        <p class="recipe-description">Udupi Sambar is a delicious South Indian lentil-based vegetable stew made with a medley of vegetables, tamarind, and aromatic spices.</p>
+        <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 30 minutes | Total Time: 50 minutes</p>
+        <p class="recipe-info">Serves: 4</p>
+        <button class="recipe-button" onclick="showRecipe('udupi_sambar_recipe')">Get Recipe</button>
+      </div>
+  
+      <div id="udupi_sambar_recipe" class="recipe-details" style="display: none;">
+        <h3>Ingredients:</h3>
+        <ul class="ingredient-list">
+          <li>1/2 cup toor dal (pigeon peas)</li>
+          <li>1 small lemon-sized ball of tamarind</li>
+          <li>1 medium-sized potato, peeled and cubed</li>
+          <li>1 small carrot, peeled and chopped</li>
+          <li>5-6 green beans, chopped</li>
+          <li>1 small tomato, chopped</li>
+          <li>1/4 cup chopped bottle gourd (lauki)</li>
+          <li>1/4 cup chopped pumpkin</li>
+          <li>1 onion, finely chopped</li>
+          <li>2-3 green chilies, slit</li>
+          <li>1 teaspoon mustard seeds</li>
+          <li>1/2 teaspoon fenugreek seeds</li>
+          <li>1/2 teaspoon turmeric powder</li>
+          <li>A pinch of asafoetida (hing)</li>
+          <li>2-3 dry red chilies</li>
+          <li>10-12 curry leaves</li>
+          <li>2 tablespoons sambar powder</li>
+          <li>2 tablespoons grated coconut</li>
+          <li>Salt to taste</li>
+          <li>2 tablespoons oil</li>
+          <li>Fresh coriander leaves for garnish</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <ol class="instruction-list">
+          <li>Pressure cook the toor dal until soft and mushy. Mash and set aside.</li>
+          <li>Soak the tamarind in warm water for 15-20 minutes. Extract the juice and set aside.</li>
+          <li>In a large pot, heat oil and add mustard seeds. When they splutter, add fenugreek seeds, dry red chilies, and asafoetida.</li>
+          <li>Add chopped onions and sauté until they turn translucent.</li>
+          <li>Add all the chopped vegetables, slit green chilies, turmeric powder, and salt. Mix well and cook for 5-7 minutes.</li>
+          <li>Add tamarind extract and bring the mixture to a boil. Reduce heat and simmer until vegetables are cooked through.</li>
+          <li>Add sambar powder and mashed toor dal. Mix well and simmer for another 5-7 minutes.</li>
+          <li>In a small pan, heat a teaspoon of oil and roast grated coconut until golden brown. Add it to the sambar and mix well.</li>
+          <li>Garnish with fresh coriander leaves and serve hot with rice or idli.</li>
+        </ol>
+      </div>
+      <div class="recipe-card">
+        <img src="Kerala Parotta.jpg" alt="Malabar Parotta">
+        <h2 class="recipe-title">Malabar Parotta</h2>
+        <p class="recipe-description">Malabar Parotta, also known as Kerala Parotta, is a popular South Indian flatbread made from maida flour. It is flaky, crispy, and goes well with a variety of side dishes.</p>
+        <p class="recipe-info">Preparation Time: 30 minutes | Cook Time: 30 minutes | Total Time: 1 hour</p>
+        <p class="recipe-info">Serves: 4</p>
+        <button class="recipe-button" onclick="showRecipe('malabar_parotta_recipe')">Get Recipe</button>
+      </div>
+  
+      <div id="malabar_parotta_recipe" class="recipe-details" style="display: none;">
+        <h3>Ingredients:</h3>
+        <ul class="ingredient-list">
+          <li>2 cups all-purpose flour (maida)</li>
+          <li>1 tablespoon sugar</li>
+          <li>1/2 teaspoon salt</li>
+          <li>2 tablespoons ghee or oil</li>
+          <li>Water as needed</li>
+          <li>Ghee or oil for frying</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <ol class="instruction-list">
+          <li>In a large mixing bowl, combine all-purpose flour, sugar, salt, and ghee or oil.</li>
+          <li>Add water gradually and knead into a soft, smooth dough. Cover and let it rest for 30 minutes.</li>
+          <li>Divide the dough into equal-sized balls and roll each ball into a thin, round disc using a rolling pin and some oil.</li>
+          <li>Brush the rolled dough disc with ghee or oil and make pleats by folding it like a paper fan.</li>
+          <li>Roll the pleated dough into a tight spiral and tuck the end underneath. Repeat with the remaining dough balls.</li>
+          <li>Flatten each spiral gently with your palm and roll into a thin, round parotta.</li>
+          <li>Heat a tawa or griddle over medium heat and place the rolled parotta on it.</li>
+          <li>Cook until brown spots appear on one side, then flip and cook the other side until golden brown, adding ghee or oil as needed.</li>
+          <li>Repeat with the remaining dough balls.</li>
+          <li>Serve hot with your favorite curry or side dish.</li>
+        </ol>
+      </div>
+      <div class="recipe-card">
+        <img src="kothu.jpg" alt="Kothu Parotta">
+        <h2 class="recipe-title">Kothu Parotta</h2>
+        <p class="recipe-description">Kothu Parotta is a popular South Indian street food made with shredded parotta, mixed with a spicy masala, vegetables, and sometimes eggs or meat.</p>
+        <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 20 minutes | Total Time: 40 minutes</p><br>
+        <p class="recipe-info">Serves: 4</p>
+        <button class="recipe-button" onclick="showRecipe('kothu_parotta_recipe')">Get Recipe</button>
+      </div>
+  
+      <div id="kothu_parotta_recipe" class="recipe-details" style="display: none;">
+        <h3>Ingredients:</h3>
+        <ul class="ingredient-list">
+          <li>4 leftover parottas, shredded</li>
+          <li>2 onions, finely chopped</li>
+          <li>2 tomatoes, chopped</li>
+          <li>2 green chilies, chopped</li>
+          <li>1 capsicum, finely chopped</li>
+          <li>2 eggs (optional)</li>
+          <li>1/2 teaspoon turmeric powder</li>
+          <li>1 teaspoon red chili powder</li>
+          <li>1 teaspoon garam masala</li>
+          <li>1/2 cup chopped coriander leaves</li>
+          <li>Salt to taste</li>
+          <li>2 tablespoons oil</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <ol class="instruction-list">
+          <li>Heat oil in a pan or kadhai. Add chopped onions and green chilies. Sauté until onions turn translucent.</li>
+          <li>Add chopped tomatoes and cook until they turn mushy.</li>
+          <li>If using eggs, push the onion-tomato mixture to one side of the pan and crack the eggs into the empty space. Scramble the eggs until cooked.</li>
+          <li>Add chopped capsicum and cook for a couple of minutes.</li>
+          <li>Add shredded parottas and mix well with the masala.</li>
+          <li>Add turmeric powder, red chili powder, garam masala, and salt. Mix until everything is well combined.</li>
+          <li>Continue to cook for 5-7 minutes, stirring occasionally, until the parottas are heated through and well coated with the masala.</li>
+          <li>Garnish with chopped coriander leaves and serve hot.</li>
+        </ol>
+      </div>
+      <  <div class="recipe-card">
+      <img src="kerala moilee.jpg" alt="Kerala Fish Moilee">
+      <h2 class="recipe-title">Kerala Fish Moilee</h2>
+      <p class="recipe-description">Kerala Fish Moilee is a traditional fish curry from Kerala, India, made with coconut milk, spices, and fish fillets. It has a creamy texture and subtle flavors, making it a delightful dish for seafood lovers.</p>
+      <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 25 minutes | Total Time: 40 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('kerala_fish_moilee_recipe')">Get Recipe</button>
+    </div>
+
+    <div id="kerala_fish_moilee_recipe" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>500g fish fillets (such as kingfish or tilapia)</li>
+        <li>1 cup thick coconut milk</li>
+        <li>1 onion, finely sliced</li>
+        <li>2 green chilies, slit lengthwise</li>
+        <li>1-inch piece of ginger, julienned</li>
+        <li>3-4 cloves of garlic, minced</li>
+        <li>1 tomato, sliced</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1 teaspoon red chili powder</li>
+        <li>1/2 teaspoon coriander powder</li>
+        <li>1/2 teaspoon mustard seeds</li>
+        <li>A few curry leaves</li>
+        <li>2 tablespoons coconut oil</li>
+        <li>Salt to taste</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Clean and cut the fish fillets into pieces. Marinate them with turmeric powder and salt. Keep aside for 10 minutes.</li>
+        <li>Heat coconut oil in a pan. Add mustard seeds and let them splutter.</li>
+        <li>Add sliced onions, green chilies, ginger, and garlic. Sauté until onions turn translucent.</li>
+        <li>Add curry leaves, turmeric powder, red chili powder, and coriander powder. Sauté for a minute.</li>
+        <li>Add sliced tomatoes and cook until they turn soft.</li>
+        <li>Now, add marinated fish pieces and mix gently with the masala.</li>
+        <li>Pour thick coconut milk and adjust salt. Bring it to a gentle simmer. Do not boil vigorously as it may cause the coconut milk to curdle.</li>
+        <li>Cover and cook for 8-10 minutes or until the fish is cooked through.</li>
+        <li>Once done, remove from heat and garnish with fresh curry leaves.</li>
+        <li>Serve hot with steamed rice or appam.</li>
+      </ol>
+    </div>
+    <div class="recipe-card">
+      <img src="puliyothari.jpg" alt="Puliyotharai">
+      <h2 class="recipe-title">Puliyotharai (Tamarind Rice)</h2>
+      <p class="recipe-description">Puliyotharai is a tangy and spicy South Indian rice dish made with tamarind pulp, spices, and rice. It is a popular recipe prepared during festivals and special occasions.</p>
+      <p class="recipe-info">Preparation Time: 15 minutes | Cook Time: 25 minutes | Total Time: 40 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('puliyotharai_recipe')">Get Recipe</button>
+    </div>
+
+    <div id="puliyotharai_recipe" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 cup rice</li>
+        <li>1 lemon-sized ball of tamarind</li>
+        <li>1/4 cup peanuts</li>
+        <li>2 tablespoons sesame oil</li>
+        <li>1 teaspoon mustard seeds</li>
+        <li>1 teaspoon chana dal (split chickpeas)</li>
+        <li>1 teaspoon urad dal (split black gram)</li>
+        <li>1/2 teaspoon fenugreek seeds</li>
+        <li>2-3 dried red chilies</li>
+        <li>1 sprig curry leaves</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1 tablespoon jaggery (optional)</li>
+        <li>Salt to taste</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Cook rice in a pot or rice cooker and let it cool.</li>
+        <li>Soak tamarind in warm water for 15 minutes. Extract the pulp and discard the seeds.</li>
+        <li>Heat sesame oil in a pan. Add mustard seeds and let them splutter.</li>
+        <li>Add peanuts and roast until golden brown. Remove and keep aside.</li>
+        <li>In the same pan, add chana dal, urad dal, fenugreek seeds, dried red chilies, and curry leaves. Sauté until the dals turn golden brown.</li>
+        <li>Add turmeric powder and sauté for a few seconds.</li>
+        <li>Add the tamarind pulp, jaggery (if using), and salt. Cook until the mixture thickens.</li>
+        <li>Once the mixture thickens, add the cooked rice and roasted peanuts. Mix well until the rice is coated evenly with the tamarind mixture.</li>
+        <li>Remove from heat and serve hot or at room temperature.</li>
+        <li>Puliyotharai is ready to be served. Enjoy!</li>
+      </ol>
+    </div>
+    <div class="recipe-card">
+      <img src="rasam.jpg" alt="Rasam">
+      <h2 class="recipe-title">Rasam</h2>
+      <p class="recipe-description">Rasam is a traditional South Indian soup made with tamarind, tomatoes, spices, and herbs. It is served as a side dish with rice or enjoyed as a soup.</p>
+      <p class="recipe-info">Preparation Time: 10 minutes | Cook Time: 20 minutes | Total Time: 30 minutes</p><br>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('rasam_recipe')">Get Recipe</button>
+    </div>
+
+    <div id="rasam_recipe" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 small lemon-sized ball of tamarind</li>
+        <li>2 tomatoes, chopped</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1 teaspoon mustard seeds</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>2-3 dry red chilies</li>
+        <li>1/2 teaspoon asafoetida (hing)</li>
+        <li>1 sprig curry leaves</li>
+        <li>2 cloves garlic, crushed (optional)</li>
+        <li>1 tablespoon oil</li>
+        <li>Salt to taste</li>
+        <li>Fresh coriander leaves for garnish</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Soak tamarind in warm water for 15 minutes. Extract the pulp and discard the seeds.</li>
+        <li>In a pot, add chopped tomatoes, tamarind pulp, turmeric powder, and salt. Add water and bring it to a boil.</li>
+        <li>Heat oil in a pan. Add mustard seeds and let them splutter.</li>
+        <li>Add cumin seeds, dry red chilies, curry leaves, asafoetida, and crushed garlic. Sauté for a minute.</li>
+        <li>Add this tempering to the boiling rasam mixture.</li>
+        <li>Let the rasam simmer for 5-7 minutes until the flavors are well combined.</li>
+        <li>Turn off the heat and garnish with fresh coriander leaves.</li>
+        <li>Rasam is ready to be served hot with rice or enjoyed as a soup!</li>
+      </ol>
+    </div>
+  
+    
+    <div class="recipe-card">
+      <img src="Palpayasam.jpg" alt="Paal Payasam">
+      <h2 class="recipe-title">Paal Payasam</h2>
+      <p class="recipe-description">Paal Payasam, also known as Rice Kheer, is a traditional South Indian dessert made with rice, milk, sugar, and flavored with cardamom and saffron.</p>
+      <p class="recipe-info">Preparation Time: 5 minutes | Cook Time: 45 minutes | Total Time: 50 minutes</p><br>
+      <p class="recipe-info">Serves: 6</p>
+      <button class="recipe-button" onclick="showRecipe('paal_payasam_recipe')">Get Recipe</button>
+    </div>
+
+    <div id="paal_payasam_recipe" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1/2 cup basmati rice</li>
+        <li>1 liter whole milk</li>
+        <li>1 cup sugar</li>
+        <li>1/4 teaspoon cardamom powder</li>
+        <li>A pinch of saffron strands</li>
+        <li>2 tablespoons chopped nuts (cashews, almonds, pistachios)</li>
+        <li>1 tablespoon ghee (clarified butter)</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Wash the rice thoroughly and soak it in water for 30 minutes. Drain and set aside.</li>
+        <li>In a heavy-bottomed pan, bring the milk to a boil.</li>
+        <li>Add the soaked rice to the boiling milk and cook on low heat, stirring occasionally, until the rice is soft and the milk thickens (about 30-40 minutes).</li>
+        <li>Add sugar and continue to cook until the sugar dissolves completely.</li>
+        <li>Crush the saffron strands and dissolve them in a tablespoon of warm milk. Add this saffron milk and cardamom powder to the payasam and mix well.</li>
+        <li>Heat ghee in a small pan and fry the chopped nuts until golden brown. Add these fried nuts to the payasam.</li>
+        <li>Simmer for a few more minutes until the payasam reaches the desired consistency.</li>
+        <li>Turn off the heat and let the payasam cool slightly before serving.</li>
+        <li>Serve warm or chilled, garnished with more chopped nuts if desired.</li>
+      </ol>
+    </div>
+     <div class="recipe-card">
+      <img src="chicken65.jpg" alt="Chicken 65">
+      <h2 class="recipe-title">Chicken 65</h2>
+      <p class="recipe-description">Chicken 65 is a popular spicy, deep-fried chicken dish originating from South India. It is made with boneless chicken marinated in a flavorful blend of spices and deep-fried until crispy.</p>
+      <p class="recipe-info">Preparation Time: 20 minutes | Cook Time: 20 minutes | Total Time: 40 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('chicken_65_recipe')">Get Recipe</button>
+    </div>
+
+    <div id="chicken_65_recipe" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>500g boneless chicken, cut into bite-sized pieces</li>
+        <li>2 tablespoons ginger-garlic paste</li>
+        <li>1 tablespoon red chili powder</li>
+        <li>1 tablespoon coriander powder</li>
+        <li>1/2 teaspoon turmeric powder</li>
+        <li>1 teaspoon garam masala</li>
+        <li>1 tablespoon corn flour</li>
+        <li>2 tablespoons all-purpose flour</li>
+        <li>2 tablespoons yogurt</li>
+        <li>1 egg</li>
+        <li>Salt to taste</li>
+        <li>Oil for deep frying</li>
+        <li>Curry leaves and green chilies for garnish</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>In a mixing bowl, combine ginger-garlic paste, red chili powder, coriander powder, turmeric powder, garam masala, corn flour, all-purpose flour, yogurt, egg, and salt to make a smooth marinade.</li>
+        <li>Add the chicken pieces to the marinade and mix well. Allow it to marinate for at least 1 hour in the refrigerator.</li>
+        <li>Heat oil in a deep frying pan over medium-high heat.</li>
+        <li>Once the oil is hot, carefully add the marinated chicken pieces one by one into the oil and fry until they turn golden brown and crispy.</li>
+        <li>Remove the fried chicken from the oil using a slotted spoon and drain excess oil on paper towels.</li>
+        <li>Garnish with curry leaves and slit green chilies.</li>
+        <li>Serve hot as an appetizer or as a side dish with rice or roti.</li>
+      </ol>
+    </div><!-- Add more recipe cards following the same format -->
+
+  </div>
+  <div class="container text-center">
+    <div class="pagination justify-content-center">
+      <div class="pagination-container"></div>
+      <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="recipe.html">1</a>
+        <a href="recipe2.html">2</a>
+        <a href="recipe3.html" class active>3</a>
+        <a href="recipe4.html">4</a>
+        
+        <a href="#">&raquo;</a>
+      </div>
+    </div>
+  </div>
+  
+  <script src="recipe.js"> </script>
+
+</body>
+</html>

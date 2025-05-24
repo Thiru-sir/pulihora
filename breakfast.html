@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Cards</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link  href="home.css" rel="stylesheet">
+  <link href="recipe.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logocontent">
+        <a href="#"class="logo"><img src="logo1.jpg" alt="logo" ></a>
+        <h1 class="logoname">Bachelors Kitchen</h1>
+    </div>
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="recipe.html">Top Dishes</a>
+        
+        <div class="dropdown">
+            <a href="home.html">Category</a> 
+            <div class="dropdown-content">
+                <a href="veg.html">Veg</a>
+                <a href="nonveg.html">Non veg</a>
+                <a href="dessart.html">Dessart</a>
+                <!-- Add more categories as needed -->
+            </div>
+          </div>
+          <div class="dropdown">   
+            <a href="#quick">Quick and Easy</a>
+            <div class="dropdown-content">
+                <a href="breakfast.html">Breakfast</a>
+                <a href="Lunch.html">Lunch</a>
+                <a href="dinner.html">Dinner</a>
+                <!-- Add more categories as needed -->
+            </div>
+            </div>
+
+        <a href="brp.html">About</a>
+        <a href="mam.html">Login</a>
+      
+    </nav>
+
+   
+</header>
+  
+  
+  <div class="container mt-4">
+    <div class="jumbotron welcome-text text-center">
+     
+      <h1 class="display-4">Recipes & Cooking Ideas</h1>
+      <p class="lead">Explore the diverse culinary delights of <span class="food-label">Tamil Nadu</span>, <span class="food-label">Kerala</span>, and <span class="food-label">Andhra Pradesh</span>.</p>
+      <hr class="my-4">
+      <p>From the fragrant spices of Tamil Nadu to the coconut-infused dishes of Kerala and the fiery delicacies of Andhra Pradesh, discover the rich flavors of South India.</p>
+    </div>
+  </div>
+  
+
+  <div class="container">
+
+    <div class="recipe-card">
+      <img src="dosa images.jpeg" alt="Dosa">
+      <h2 class="recipe-title">Dosa</h2>
+      <p class="recipe-description">Thin, crispy crepes made from fermented rice and lentil batter, typically served with sambar and coconut chutney.</p>
+      <p class="recipe-info">Prep Time: 10-12 hours (includes soaking and fermenting time) | Cook Time: 30 minutes | Total Time: 12 hours 30 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('recipe-details-dosa')">Get Recipe</button>
+    </div>
+    
+    <div id="recipe-details-dosa" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 cup parboiled rice (or idli rice)</li>
+        <li>1/2 cup whole urad dal (black lentils)</li>
+        <li>1/4 cup flattened rice (poha)</li>
+        <li>1/2 teaspoon fenugreek seeds (methi seeds)</li>
+        <li>Salt to taste</li>
+        <li>Oil or ghee for cooking</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Wash the rice, urad dal, and fenugreek seeds together in water. Soak them in enough water for 4-6 hours.</li>
+        <li>Rinse the flattened rice (poha) and soak it separately in water for about 30 minutes.</li>
+        <li>Drain the water from rice, dal, and fenugreek seeds. Grind them together into a smooth batter using a wet grinder or blender, adding water as needed.</li>
+        <li>Add soaked flattened rice (poha) to the batter and grind again until well combined.</li>
+        <li>Add salt to the batter and mix well. The batter should be of pouring consistency, similar to pancake batter.</li>
+        <li>Cover the batter and let it ferment in a warm place for 8-10 hours or overnight, allowing it to rise and become slightly sour.</li>
+        <li>Heat a non-stick or cast iron griddle (tawa) over medium-high heat.</li>
+        <li>Grease the griddle lightly with oil or ghee.</li>
+        <li>Pour a ladleful of dosa batter onto the center of the hot griddle and spread it in a circular motion to form a thin crepe.</li>
+        <li>Drizzle some oil or ghee around the edges of the dosa.</li>
+        <li>Cook until the underside turns golden brown and crispy, then flip and cook the other side for a minute.</li>
+        <li>Remove the dosa from the griddle and serve hot with sambar and coconut chutney.</li>
+      </ol>
+    </div>
+    
+    <div class="recipe-card">
+      <img src="Soft & Spongy Idli Recipe + Video - Tickling Palates.jpeg" alt="Idli">
+      <h2 class="recipe-title">Idli</h2>
+      <p class="recipe-description">Steamed rice cakes made from fermented rice and lentil batter, typically served with sambar and coconut chutney.</p>
+      <p class="recipe-info">Prep Time: 8-10 hours | Cook Time: 15 minutes | Total Time: 10 hours 15 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('idli-details')">Get Recipe</button>
+    </div>
+    
+    <div id="idli-details" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>2 cups idli rice (parboiled rice)</li>
+        <li>1 cup whole urad dal (black lentils)</li>
+        <li>1 teaspoon fenugreek seeds (methi seeds)</li>
+        <li>Salt to taste</li>
+        <li>Oil or ghee (for greasing the idli molds)</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Wash the idli rice, urad dal, and fenugreek seeds separately and soak them in water for 6-8 hours or overnight.</li>
+        <li>Drain the soaked rice, dal, and fenugreek seeds. Grind them together in a wet grinder or blender to make a smooth batter, adding water as needed.</li>
+        <li>Add salt to the batter and mix well. The batter should have a thick pouring consistency.</li>
+        <li>Transfer the batter to a large bowl and cover it. Allow it to ferment in a warm place for 8-10 hours or until the batter doubles in volume and becomes airy.</li>
+        <li>Grease the idli molds with oil or ghee. Pour spoonfuls of the batter into each mold.</li>
+        <li>Steam the idlis in a steamer for about 10-12 minutes or until they are cooked through and firm.</li>
+        <li>Remove the idlis from the molds using a spoon or knife.</li>
+        <li>Serve hot idlis with sambar and coconut chutney.</li>
+      </ol>
+    </div>
+    
+    <div class="recipe-card">
+      <img src="Ven Pongal Recipe (Khara Pongal).jpeg" alt="Pongal">
+      <h2 class="recipe-title">Pongal</h2>
+      <p class="recipe-description">A traditional South Indian dish made from rice and lentils, flavored with cumin and black pepper.</p>
+      <p class="recipe-info">Prep Time: 5 minutes | Cook Time: 20 minutes | Total Time: 25 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('recipe-details-pongal')">Get Recipe</button>
+    </div>
+    
+    <div id="recipe-details-pongal" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 cup raw rice</li>
+        <li>1/2 cup split yellow moong dal (yellow lentils)</li>
+        <li>2 tablespoons ghee (clarified butter)</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>1 teaspoon black peppercorns, crushed</li>
+        <li>A pinch of asafoetida (hing)</li>
+        <li>10-12 curry leaves</li>
+        <li>2-3 green chilies, chopped</li>
+        <li>1 inch ginger, finely chopped</li>
+        <li>Salt to taste</li>
+        <li>4 cups water</li>
+        <li>Chopped coriander leaves for garnishing</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Rinse rice and moong dal together under running water. Drain and set aside.</li>
+        <li>In a pressure cooker or pot, heat ghee over medium heat.</li>
+        <li>Add cumin seeds, crushed peppercorns, and asafoetida. Sauté for a few seconds until fragrant.</li>
+        <li>Add curry leaves, chopped green chilies, and ginger. Sauté for another minute.</li>
+        <li>Add the rinsed rice and moong dal to the pot. Mix well with the tempering.</li>
+        <li>Add salt and water. Stir to combine.</li>
+        <li>Cover the pressure cooker or pot with a lid. Cook on medium heat for about 3 whistles (if using a pressure cooker) or simmer until rice and dal are cooked and soft.</li>
+        <li>Once done, open the lid carefully and mix the pongal well. Adjust salt if needed.</li>
+        <li>Garnish with chopped coriander leaves.</li>
+        <li>Serve hot with coconut chutney and sambar.</li>
+      </ol>
+    </div>
+
+    <div class="recipe-card">
+      <img src="Adai _ Adai Dosa.jpeg" alt="Adai">
+      <h2 class="recipe-title">Adai</h2>
+      <p class="recipe-description">A thick and savory pancake made from a mixture of lentils and rice, usually served with aviyal or chutney.</p>
+      <p class="recipe-info">Prep Time: 4-6 hours | Cook Time: 20 minutes | Total Time: 6 hours 20 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('recipe-details-adai')">Get Recipe</button>
+    </div>
+    
+    <div id="recipe-details-adai" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 cup raw rice</li>
+        <li>1/2 cup toor dal (split pigeon peas)</li>
+        <li>1/2 cup chana dal (split chickpeas)</li>
+        <li>1/4 cup urad dal (black lentils)</li>
+        <li>2-3 dried red chilies</li>
+        <li>1 inch piece of ginger, chopped</li>
+        <li>1-2 green chilies, chopped</li>
+        <li>A handful of curry leaves</li>
+        <li>1/2 teaspoon asafoetida (hing)</li>
+        <li>1 teaspoon cumin seeds</li>
+        <li>Salt to taste</li>
+        <li>Oil for cooking</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Wash and soak rice, toor dal, chana dal, and urad dal together in water for 4-6 hours.</li>
+        <li>Drain the soaked ingredients and grind them into a coarse batter along with dried red chilies, ginger, green chilies, curry leaves, asafoetida, cumin seeds, and salt. Add water as needed to achieve a thick pancake batter consistency.</li>
+        <li>Heat a griddle or non-stick pan over medium heat.</li>
+        <li>Grease the pan with a little oil.</li>
+        <li>Take a ladleful of the batter and spread it evenly on the pan to form a thick pancake (adai).</li>
+        <li>Drizzle a little oil around the edges and cook until the bottom side turns golden brown and crispy.</li>
+        <li>Flip the adai and cook the other side until cooked through.</li>
+        <li>Repeat with the remaining batter to make more adais.</li>
+        <li>Serve hot adais with aviyal, coconut chutney, or jaggery.</li>
+      </ol>
+    </div>
+
+    <div class="recipe-card">
+      <img src="Kerala Appam Recipe _ Traditional Palappam Recipe With Yeast.jpeg" alt="Appam">
+      <h2 class="recipe-title">Appam</h2>
+      <p class="recipe-description">Soft and fluffy pancakes made from fermented rice batter, usually served with coconut milk.</p>
+      <p class="recipe-info">Prep Time: 8-10 hours (includes fermentation time) | Cook Time: 20 minutes | Total Time: 8-10 hours 20 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('recipe-details-appam')">Get Recipe</button>
+    </div>
+    
+    <div id="recipe-details-appam" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>2 cups raw rice</li>
+        <li>1 cup cooked rice (preferably leftover rice)</li>
+        <li>1/2 cup grated coconut (fresh or frozen)</li>
+        <li>1/2 teaspoon active dry yeast</li>
+        <li>1 tablespoon sugar</li>
+        <li>1/2 teaspoon salt</li>
+        <li>Water, as needed</li>
+        <li>Oil or ghee, for greasing the appam pan</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Wash and soak raw rice in water for 6-8 hours or overnight.</li>
+        <li>In a blender, combine soaked raw rice, cooked rice, grated coconut, sugar, and salt.</li>
+        <li>Add water gradually and blend until you get a smooth batter (similar to dosa batter consistency).</li>
+        <li>Dissolve yeast in a little warm water and add it to the batter. Mix well.</li>
+        <li>Cover the batter and let it ferment for 6-8 hours or overnight in a warm place.</li>
+        <li>After fermentation, the batter will rise and become slightly bubbly.</li>
+        <li>Heat an appam pan (appachatti) over medium heat and grease it lightly with oil or ghee.</li>
+        <li>Pour a ladleful of batter into the center of the pan.</li>
+        <li>Hold the handles of the pan and gently swirl it around to spread the batter in a circular shape (thin edges and thick center).</li>
+        <li>Cover the pan with a lid and cook the appam for 2-3 minutes or until the edges turn golden brown and crispy, and the center is cooked and fluffy.</li>
+        <li>Remove the appam from the pan using a spatula and repeat with the remaining batter.</li>
+        <li>Serve hot with coconut milk or stew.</li>
+      </ol>
+    </div>
+    
+    <div class="recipe-card">
+      <img src="Idiyappam Kurma - Vegetable Kurma For Idiyappam.jpeg" alt="Idiyappam">
+      <h2 class="recipe-title">Idiyappam</h2>
+      <p class="recipe-description">String hoppers made from rice flour, typically served with coconut milk or curry.</p>
+      <p class="recipe-info">Prep Time: 20 minutes | Cook Time: 15 minutes | Total Time: 35 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('recipe-details12')">Get Recipe</button>
+    </div>
+    
+    <div id="recipe-details12" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>2 cups rice flour</li>
+        <li>1 to 1.5 cups hot water</li>
+        <li>Salt to taste</li>
+        <li>1 tablespoon oil</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>In a large mixing bowl, combine rice flour and salt.</li>
+        <li>Gradually add hot water, a little at a time, and mix with a spoon until the flour comes together to form a dough.</li>
+        <li>Knead the dough with your hands until smooth and pliable. Add oil and knead again to incorporate.</li>
+        <li>Fill an idiyappam maker (or a chakli press with idiyappam attachment) with the dough.</li>
+        <li>Press the dough onto idli plates or steamer trays in circular motions to form string hoppers.</li>
+        <li>Steam the idiyappam for about 8-10 minutes or until cooked and firm.</li>
+        <li>Once done, remove the idiyappam from the steamer and let them cool slightly.</li>
+        <li>Serve warm idiyappam with coconut milk and sugar, or with curry of your choice.</li>
+      </ol>
+    </div>
+    
+    <div class="recipe-card">
+      <img src="Crispy Dal Methi Masala Poori Recipe.jpeg" alt="Poori">
+      <h2 class="recipe-title">Poori</h2>
+      <p class="recipe-description">Deep-fried bread made from wheat flour, often served with potato masala.</p>
+      <p class="recipe-info">Prep Time: 20 minutes | Cook Time: 20 minutes | Total Time: 40 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('recipe-details-poori')">Get Recipe</button>
+    </div>
+    
+    <div id="recipe-details-poori" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>2 cups whole wheat flour (atta)</li>
+        <li>1 tablespoon semolina (sooji, optional)</li>
+        <li>1/2 teaspoon salt</li>
+        <li>Water, as needed</li>
+        <li>Oil, for deep frying</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>In a mixing bowl, combine whole wheat flour, semolina (if using), and salt.</li>
+        <li>Add water gradually and knead to form a smooth and stiff dough. Cover and let it rest for 15-20 minutes.</li>
+        <li>Divide the dough into small lemon-sized balls.</li>
+        <li>Heat oil for deep frying in a pan over medium-high heat.</li>
+        <li>Roll out each dough ball into a small circle using a rolling pin (about 4-5 inches in diameter).</li>
+        <li>Gently slide the rolled dough into the hot oil. Press it lightly with a slotted spoon to help it puff up.</li>
+        <li>Fry until both sides are golden brown and puffed up, turning as needed.</li>
+        <li>Remove the poori from the oil using a slotted spoon and drain excess oil on paper towels.</li>
+        <li>Serve hot with potato masala or any curry of your choice.</li>
+      </ol>
+    </div>
+    
+    <div class="recipe-card">
+      <img src="Street Style Maggi Noodles Recipe - VegeCravings.jpeg" alt="Maggi Noodles">
+      <h2 class="recipe-title">Maggi Noodles</h2>
+      <p class="recipe-description">Quick and easy noodles dish, perfect for a snack or light meal.</p>
+      <p class="recipe-info">Prep Time: 5 minutes | Cook Time: 5 minutes | Total Time: 10 minutes</p>
+      <p class="recipe-info">Serves: 2</p>
+      <button class="recipe-button" onclick="showRecipe('recipe-details-maggi')">Get Recipe</button>
+    </div>
+    
+    <div id="recipe-details-maggi" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>2 packets of Maggi noodles</li>
+        <li>4 cups of water</li>
+        <li>Maggi masala (included in the packet)</li>
+        <li>Chopped vegetables (optional, such as carrots, peas, bell peppers)</li>
+        <li>Oil or butter for cooking</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Bring 4 cups of water to a boil in a pot.</li>
+        <li>Add Maggi noodles and cook for 2 minutes.</li>
+        <li>If using vegetables, add them to the boiling water along with the noodles.</li>
+        <li>After 2 minutes, add Maggi masala to the noodles. Stir well.</li>
+        <li>Cook for another 2-3 minutes until the noodles are cooked through.</li>
+        <li>Remove from heat and serve hot.</li>
+      </ol>
+    </div>
+    
+    <div class="recipe-card">
+      <img src="Kuzhi Paniyaram.jpeg" alt="Kuzhi Paniyaram">
+      <h2 class="recipe-title">Kuzhi Paniyaram</h2>
+      <p class="recipe-description">Kuzhi Paniyaram is a popular South Indian snack made from fermented rice and lentil batter, cooked in a special pan to get a crispy exterior and soft interior.</p>
+      <p class="recipe-info">Prep Time: 8-10 hours (including soaking and fermentation) | Cook Time: 20 minutes | Total Time: 8 hours 20 minutes</p>
+      <p class="recipe-info">Serves: 4</p>
+      <button class="recipe-button" onclick="showRecipe('recipe-details')">Get Recipe</button>
+    </div>
+    
+    <div id="recipe-details" class="recipe-details" style="display: none;">
+      <h3>Ingredients:</h3>
+      <ul class="ingredient-list">
+        <li>1 cup raw rice (preferably idli rice)</li>
+        <li>1/2 cup urad dal (black lentils)</li>
+        <li>1/4 cup cooked rice (leftover rice)</li>
+        <li>1/2 teaspoon fenugreek seeds (methi seeds)</li>
+        <li>Salt to taste</li>
+        <li>1 onion, finely chopped</li>
+        <li>2-3 green chilies, finely chopped</li>
+        <li>1/4 cup chopped coriander leaves</li>
+        <li>1/4 cup grated coconut (optional)</li>
+        <li>Oil for greasing the paniyaram pan</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol class="instruction-list">
+        <li>Wash and soak raw rice, urad dal, and fenugreek seeds together in water for 6-8 hours.</li>
+        <li>Drain the soaked ingredients and grind them into a smooth batter along with cooked rice and salt. The consistency should be similar to dosa batter.</li>
+        <li>Transfer the batter to a bowl and let it ferment for 6-8 hours or overnight.</li>
+        <li>After fermentation, the batter will rise and become slightly fluffy.</li>
+        <li>Heat a kuzhi paniyaram pan and grease each mold with a few drops of oil.</li>
+        <li>Add chopped onion, green chilies, coriander leaves, and grated coconut (if using) to the batter and mix well.</li>
+        <li>Spoon the batter into each mold, filling them up to 3/4th of the mold.</li>
+        <li>Cover and cook on medium-low heat for a few minutes.</li>
+        <li>Once the bottom side turns golden brown and crispy, flip each paniyaram using a skewer or spoon.</li>
+        <li>Cook the other side until it becomes golden brown and crispy.</li>
+        <li>Remove the paniyaram from the pan and repeat the process with the remaining batter.</li>
+        <li>Serve hot with coconut chutney or tomato chutney.</li>
+      </ol>
+    </div>
+    
+
+    
+    </div>
+    <div class="pagination-container"></div>
+    <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a href="" class="active">1</a>
+      <a href="recipe2.html">2</a>
+      <a href="recipe3.html">3</a>
+      <a href="recipe4.html">4</a>
+      <a href="#">5</a>
+      <a href="#">&raquo;</a>
+    </div>
+    <script src="recipe.js"> </script>
+    <script src="back.js"></script>
+    <script src="home.js"></script>
+
+ 
+
+</body>
+</html>

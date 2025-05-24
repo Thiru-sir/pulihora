@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bachelor's Kitchen - Login Success</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("images/pexels-photo-1414651.jpeg");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      max-width: 500px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+    .lighting {
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      right: -10px;
+      bottom: -10px;
+      background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 100%);
+      border-radius: 20px;
+      z-index: 1;
+    }
+    .card-body {
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+    h2 {
+      color: #28a745;
+      font-size: 36px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 18px;
+      color: #6c757d;
+    }
+    .btn {
+      background-color: #28a745;
+      border: none;
+      padding: 12px 24px;
+      font-size: 18px;
+      border-radius: 30px;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #218838;
+    }
+    .icon-check {
+      color: #28a745;
+      font-size: 80px;
+      margin-bottom: 20px;
+    }
+    .attribution {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+    .attribution a {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="lighting"></div>
+    <div class="card">
+      <div class="card-body">
+        <i class="fas fa-check-circle icon-check"></i>
+        <h2>Login Successful!</h2>
+        <p>Welcome back to Bachelor's Kitchen. Get ready to explore delicious recipes.</p>
+        <a href="home.html" class="btn btn-lg btn-primary mt-3">Continue to Dashboard</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Charles Deluvio</a> on <a href="https://unsplash.com/s/photos/kitchen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

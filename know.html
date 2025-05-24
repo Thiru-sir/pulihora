@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bachelor's Kitchen - Know More</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Add Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-3NUUvlTPgWcQp2qk+5lirAYMgENMKYIgRR93gHn+gXl9U0FqKl5ZDSYlw1yDp2JmYJ2iMH7so/h+vKdhnP5LQw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Add Bootstrap Icons CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    /* Additional CSS specific to this page */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .jumbotron {
+      background-image: url("Food\ background\ with\ Organic\ Vegetab.jpg");
+      background-size: cover;
+      color: #0af91e;
+      padding: 100px 0;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+    h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 50px;
+      animation: slideInUp 1s ease-in-out;
+    }
+    .feature {
+      flex: 1 1 300px;
+      background-color: #fff;
+      padding: 40px 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      animation: fadeIn 1s ease-in-out;
+    }
+    .feature:hover {
+      transform: translateY(-10px);
+    }
+    .feature h3 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      color: #555;
+    }
+    .feature p {
+      font-size: 1rem;
+      color: #777;
+    }
+    .feature img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      max-height: 200px;
+      object-fit: cover;
+    }
+    .quote {
+      font-style: italic;
+      font-size: 1.2rem;
+      margin-top: 30px;
+      color: #888;
+    }
+    footer {
+      background: linear-gradient(45deg, #4CAF50, #2e7d32);
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+    footer p {
+      margin-bottom: 10px;
+    }
+    footer .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    footer .footer-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    footer .footer-links a:hover {
+      text-decoration: underline;
+    }
+    .moving-images {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      animation: slideInUp 1s ease-in-out;
+    }
+    .moving-images img {
+      width: 100px;
+      margin: 0 10px;
+      animation: floatImage 5s ease-in-out infinite alternate;
+    }
+    @keyframes floatImage {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-10px);
+      }
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    @keyframes slideInUp {
+      from {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    /* Colorful icons */
+    .colorful-icon {
+      font-size: 2rem;
+      margin: 0 10px;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+    .colorful-icon:hover {
+      color: #797aec;
+      color: rgb(231, 137, 189); /* Change to desired hover color */
+    }
+    /* Magic effect */
+    .magic-effect {
+      filter: grayscale(100%);
+      transition: filter 0.5s ease;
+    }
+    .magic-effect:hover {
+      filter: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Welcome to Bachelor's Kitchen</h1>
+      <p>Discover more about Bachelor's Kitchen - your ultimate recipe generator!</p>
+      <a href="home.html" class="btn btn-primary">Home</a>
+    </div>
+  </div>
+  <main>
+    <div class="container">
+      <h2>Features</h2>
+      <div class="features">
+        <div class="feature magic-effect">
+          <img src="Nellikai thayir pachadi recipe _ Amla raita - Raks Kitchen.jpg" alt="Personalized Recipes">
+          <h3>Personalized Recipes</h3>
+          <p>Get personalized recipe recommendations based on your taste preferences, dietary restrictions, and available ingredients.</p>
+          <div class="quote">"Cooking is love made visible." - Unknown</div>
+        </div>
+        <div class="feature magic-effect">
+          <img src="chicken briyani.jpg" alt="Easy to Use Interface">
+          <h3>Easy to Use Interface</h3>
+          <p>Our user-friendly interface makes it simple to find, save, and share recipes with just a few clicks.</p>
+          <div class="quote">"Food is symbolic of love when words are inadequate." - Alan D. Wolfelt</div>
+        </div>
+        <div class="feature magic-effect">
+          <img src="PINEAPPLE PACHADI - KERALA STYLE.jpg" alt="Ingredient Substitution">
+          <h3>Ingredient Substitution</h3>
+          <p>Explore ingredient substitution options to adapt recipes based on what you have on hand, saving you trips to the store.</p>
+          <div class="quote">"The only time to eat diet food is while you're waiting for the steak to cook." - Julia Child</div>
+        </div>
+        <div class="feature magic-effect">
+          <img src="Designer (1).png" alt="Step-by-Step Instructions">
+          <h3>Step-by-Step Instructions</h3>
+          <p>Follow clear, step-by-step instructions accompanied by photos and videos to ensure your culinary success.</p>
+          <div class="quote">"One cannot think well, love well, sleep well, if one has not dined well." - Virginia Woolf</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="home.html">Home</a>
+        <a href="recipe.html">Top Dishes</a>
+        <a href="veg.html">Veg</a>
+        <a href="nonveg.html">Non Veg</a>
+        <a href="dessart.html">Desserts</a>
+        <a href="brp.html">About</a>
+        <a href="mam.html">Login</a>
+      </div>
+      <p>Follow us on social media:</p>
+      <div class="moving-images">
+        <!-- Colorful icons -->
+        <a href="https://www.facebook.com/your_page"><i class="bi bi-facebook colorful-icon"></i></a>
+        <a href="https://www.instagram.com/your_account"><i class="bi bi-instagram colorful-icon"></i></a>
+      </div>
+      <p>&copy; 2024 Bachelor's Kitchen. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Add any additional scripts here -->
+</body>
+</html>

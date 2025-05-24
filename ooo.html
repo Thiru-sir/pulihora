@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Recipe Website</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Custom styles */
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f9f9f9; /* Light Gray */
+      color: #333; /* Dark Gray */
+    }
+
+    .navbar {
+      background-color: #3b6978; /* Dark Cyan */
+    }
+
+    .navbar-brand {
+      color: #fff; /* White */
+      font-weight: bold;
+    }
+
+    .navbar-nav .nav-link {
+      color: #fff !important; /* White */
+    }
+
+    .navbar-toggler {
+      border-color: #fff; /* White */
+    }
+
+    .navbar-toggler-icon {
+      background-color: #fff; /* White */
+    }
+
+    .about-section {
+      padding: 50px 0;
+      background-color: #fff; /* White */
+    }
+
+    .about-title {
+      font-size: 36px;
+      font-weight: bold;
+      color: #333; /* Dark Gray */
+    }
+
+    .about-description {
+      font-size: 18px;
+      color: #555; /* Gray */
+    }
+
+    .team-member img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .team-member img:hover {
+      transform: scale(1.1);
+    }
+
+    .team-member h3 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333; /* Dark Gray */
+    }
+
+    .team-member p {
+      color: #555; /* Gray */
+    }
+
+    .social-icons {
+      background-color: #3b6978; /* Dark Cyan */
+      padding: 20px 0;
+    }
+
+    .social-icons a {
+      color: #fff; /* White */
+      font-size: 24px;
+      margin: 0 10px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+    }
+
+    footer {
+      background-color: #333; /* Dark Gray */
+      color: #fff; /* White */
+      padding: 30px 0;
+    }
+
+    footer p {
+      color: #ccc; /* Light Gray */
+    }
+
+    .quote {
+      color: #ff6f61; /* Coral */
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Bachelors Kitchen</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <div class="container about-section">
+    <div class="text-center">
+      <h1 class="about-title">About Us</h1>
+      <p class="about-description">Welcome to the Bachelors Kitchen Website! We are passionate about providing you with easy-to-follow and delicious recipes for your everyday cooking needs. Whether you're a beginner or an experienced chef, we have something for everyone. Explore our collection of recipes, try them out in your kitchen, and enjoy creating delightful meals for yourself and your loved ones.</p>
+    </div>
+  </div>
+
+  <!-- Team Section -->
+  <div class="container team-section">
+    <h2 class="text-center">Meet Our Team</h2>
+    <div class="row justify-content-center">
+
+      <!-- Team Member 1 -->
+      <div class="col-md-4 team-member text-center">
+        <img src="team-member-1.jpg" alt="Team Member 1">
+        <h3>Antony</h3>
+        <p>Image Creator</p>
+      </div>
+
+      <!-- Team Member 2 -->
+      <div class="col-md-4 team-member text-center">
+        <img src="team-member-2.jpg" alt="Team Member 2">
+        <h3>Dharun</h3>
+        <p>Image Selector</p>
+      </div>
+
+      <!-- Team Member 3 -->
+      <div class="col-md-4 team-member text-center">
+        <img src="team-member-3.jpg" alt="Team Member 3">
+        <h3>Dhanushvel</h3>
+        <p>Designer</p>
+      </div>
+
+      <!-- Team Member 4 -->
+      <div class="col-md-4 team-member text-center">
+        <img src="team-member-4.jpg" alt="Team Member 4">
+        <h3>Chandru</h3>
+        <p>Designer</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Social Icons -->
+  <div class="container">
+    <div class="social-icons text-center">
+      <p class="mt-3">Let's be friends...!</p>
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+      <a href="#" class="fab fa-youtube"></a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
